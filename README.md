@@ -7291,3 +7291,304 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Robot Operating Modes & Safety States
+
+**Document ID:** ROB-006  
+**System:** IMPERIAL CORE Robotics Platform  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Robot Operating Modes define the governed operational states of robotic systems throughout their entire lifecycle.
+
+The purpose is to ensure predictable, reviewable and safe transitions between operational conditions.
+
+This document specifies architectural intent only.
+
+---
+
+# Vision
+
+Every robot always knows:
+
+- where it is;
+- what it is allowed to do;
+- who authorized it;
+- when it must stop.
+
+---
+
+# Engineering Principles
+
+Operating Modes follow:
+
+- Safety Before Performance
+- Explicit State Control
+- Predictable Transitions
+- Continuous Monitoring
+- Human Final Authority
+- Complete Auditability
+
+---
+
+# Operational State Machine
+
+```text
+Manufacturing
+        │
+        ▼
+Registration
+        │
+        ▼
+Initialization
+        │
+        ▼
+Verification
+        │
+        ▼
+Ready
+        │
+        ▼
+Mission Assigned
+        │
+        ▼
+Mission Execution
+        │
+        ▼
+Mission Completed
+        │
+        ▼
+Standby
+```
+
+Emergency transitions may interrupt every operational state.
+
+---
+
+# Operating Modes
+
+## Manufacturing
+
+Robot is being assembled.
+
+Physical execution is prohibited.
+
+---
+
+## Engineering
+
+Used for controlled engineering validation.
+
+Requires engineering authorization.
+
+---
+
+## Simulation
+
+Robot executes only simulated missions.
+
+No physical mission execution.
+
+---
+
+## Training
+
+Robot improves operational capability using approved training procedures.
+
+Training remains governed.
+
+---
+
+## Ready
+
+Robot is operational.
+
+Waiting for approved missions.
+
+---
+
+## Mission Execution
+
+Robot performs approved operational work.
+
+Only approved Physical Skills may execute.
+
+---
+
+## Maintenance
+
+Robot may be inspected, repaired or upgraded.
+
+Mission execution is disabled.
+
+---
+
+## Diagnostics
+
+Robot performs health verification.
+
+Operational authority remains limited.
+
+---
+
+## Quarantine
+
+Robot is isolated.
+
+Mission execution is prohibited.
+
+Guardian Core investigation may be active.
+
+---
+
+## Emergency Stop
+
+Immediate interruption of physical execution.
+
+Priority:
+
+Human Safety.
+
+---
+
+## Recovery
+
+Robot returns from emergency state through controlled procedures.
+
+Requires verification.
+
+---
+
+## Retirement
+
+Operational authority permanently ends.
+
+Robot Passport remains archived.
+
+---
+
+# Safety States
+
+Every robot continuously evaluates:
+
+- Human Presence
+- Mission Safety
+- Environment Safety
+- Hardware Health
+- Sensor Integrity
+- Communication Status
+- Guardian Core Status
+
+Unsafe conditions should trigger safe state transitions.
+
+---
+
+# State Transition Rules
+
+Every transition requires evaluation of:
+
+- Robot Passport
+- Mission
+- Guardian Core
+- Approval Gateway
+- Safety Policies
+- Operational Limits
+
+Transitions must be auditable.
+
+---
+
+# Human Override
+
+The architecture reserves the ability for authorized personnel to interrupt or stop robot execution where appropriate.
+
+Future implementations should authenticate and audit such actions.
+
+---
+
+# Emergency Principles
+
+Emergency Stop should:
+
+- stop hazardous physical actions;
+- preserve engineering evidence;
+- notify Guardian Core;
+- notify supervising systems;
+- allow controlled recovery.
+
+---
+
+# Integration
+
+Operating Modes integrate with:
+
+- Robot Runtime
+- Robotics Platform
+- Robot Passport
+- Physical Skills
+- Fleet Federation
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Operating states defined.
+- Safety states defined.
+- Transition model defined.
+- Emergency model defined.
+
+## Current Reality
+
+- Runtime state engine not implemented.
+- Emergency orchestration not implemented.
+- Hardware validation not implemented.
+- Production verification not performed.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-ROB006-001
+
+**Event:** Architecture Document Published
+
+Robot Operating Modes have been defined as the governed operational state model for robotic systems.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"A safe robot is always in a known state."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
