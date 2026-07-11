@@ -3853,3 +3853,210 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Audit Ledger
+
+**Document ID:** SEC-003  
+**System:** HANTER  
+**System Role:** Closed Personal Command Center of Alexander Romaskevich  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Audit Ledger is the permanent engineering evidence system of HANTER.
+
+Its purpose is to preserve an accurate, chronological and reviewable history of significant architectural, security and operational events.
+
+The Audit Ledger records what happened, when it happened, who initiated it and under which approved authority.
+
+This document describes architectural intent only.
+
+---
+
+# Engineering Principles
+
+The Audit Ledger is designed according to the following principles:
+
+- Integrity Before Convenience
+- Evidence Before Assumption
+- Complete Traceability
+- Non-Repudiation
+- Tamper-Evident Records
+- Long-Term Preservation
+
+---
+
+# Architectural Role
+
+The Audit Ledger is not a logging system.
+
+It is the official engineering evidence repository for executive actions.
+
+---
+
+# Events Recorded
+
+The following events should be recorded:
+
+- Identity creation
+- Identity revocation
+- Approval requests
+- Approval decisions
+- Guardian Core actions
+- Executive decisions
+- Policy changes
+- Mission execution
+- Credential issuance
+- Credential revocation
+- Robot safety events
+- Security incidents
+- Emergency actions
+- Architecture updates
+
+---
+
+# Audit Record Structure
+
+Every record should contain:
+
+```text
+Event ID
+Timestamp
+Actor Identity
+Authority Level
+Mission ID
+Operation
+Affected Resource
+Policy Reference
+Approval Reference
+Risk Classification
+Result
+Evidence Digest
+Previous State
+New State
+Guardian Core Status
+Digital Signature
+```
+
+---
+
+# Immutable History
+
+Audit records should never be silently modified.
+
+Corrections should generate new audit events rather than overwrite historical evidence.
+
+---
+
+# Integration
+
+The Audit Ledger is intended to integrate with:
+
+- Guardian Core
+- Approval Gateway
+- Executive Credential Authority
+- Executive Workspace
+- AI Passport
+- Robot Passport
+- Enterprise Skills
+- Mission Runtime
+
+---
+
+# Search Capabilities
+
+Future implementations should support searching by:
+
+- Event ID
+- Mission ID
+- Identity
+- Time Range
+- Policy
+- Risk Level
+- Approval ID
+- Resource
+- Event Type
+
+---
+
+# Evidence Retention
+
+Audit information should remain available according to future retention policies.
+
+Long-term preservation should remain an architectural objective.
+
+---
+
+# Security Requirements
+
+The future implementation is expected to provide:
+
+- Cryptographic integrity
+- Access control
+- Version history
+- Export capability
+- Independent verification
+- Secure backup
+
+Specific storage technology has not yet been selected.
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Permanent audit model defined
+- Event structure defined
+- Integration defined
+- Engineering evidence model defined
+
+## Current Reality
+
+- Audit Ledger software does not exist
+- Storage backend not selected
+- Cryptographic protection not implemented
+- Independent verification not performed
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-SEC003-001
+
+**Event:** Architecture Document Published
+
+Audit Ledger has been defined as the permanent engineering evidence system for HANTER.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Evidence preserves trust."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
