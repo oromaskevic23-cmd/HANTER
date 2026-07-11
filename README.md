@@ -3249,3 +3249,607 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+# Approval Gateway
+
+**Document ID:** SEC-002  
+**System:** HANTER  
+**System Role:** Closed Personal Command Center of Alexander Romaskevich  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Approval Gateway is the controlled authorization boundary for critical actions within HANTER.
+
+Its purpose is to ensure that actions requiring explicit authority cannot be executed without a valid, reviewable and auditable approval.
+
+Approval Gateway does not replace the Architect.
+
+It enforces the Architect’s authority by ensuring that undefined, strategic, high-risk and constitutional actions remain blocked until properly approved.
+
+---
+
+# Constitutional Principle
+
+> HANTER may automatically execute only predefined and approved scenarios.
+
+> Any undefined, strategic, architectural, constitutional or exceptional decision remains under the final authority of the Architect.
+
+---
+
+# Core Responsibilities
+
+Approval Gateway is responsible for:
+
+- receiving approval requests;
+- validating the requesting identity;
+- verifying the applicable policy;
+- presenting decision evidence;
+- enforcing authority boundaries;
+- issuing scoped approval artifacts;
+- rejecting unauthorized requests;
+- recording approval decisions;
+- expiring unused approvals;
+- revoking approvals when conditions change.
+
+---
+
+# Architectural Position
+
+```text
+Mission or Action Request
+          │
+          ▼
+Identity Validation
+          │
+          ▼
+Policy Evaluation
+          │
+          ▼
+Risk Classification
+          │
+          ▼
+Guardian Core Review
+          │
+          ▼
+Approval Gateway
+          │
+     ┌────┴────┐
+     │         │
+     ▼         ▼
+ Approved     Denied
+     │
+     ▼
+Scoped Capability Token
+     │
+     ▼
+Controlled Execution
+     │
+     ▼
+Audit Ledger
+```
+
+---
+
+# Approval Categories
+
+| Level | Category | Authority |
+|---|---|---|
+| AP0 | Routine approved execution | HANTER |
+| AP1 | Operational exception | Approved domain authority |
+| AP2 | High-risk operational action | Architect approval may be required |
+| AP3 | Strategic action | Architect |
+| AP4 | Architectural change | Architect |
+| AP5 | Constitutional change | Architect only |
+| APX | Prohibited action | Denied |
+
+---
+
+# Approval Request Record
+
+Every approval request should contain:
+
+```text
+Approval Request ID
+Requester Identity
+Mission ID
+Action
+Target Resource
+Reason
+Policy Reference
+Risk Level
+Expected Outcome
+Known Limitations
+Known Risks
+Evidence References
+Requested Scope
+Requested Duration
+Guardian Core Result
+Architect Decision
+Decision Timestamp
+Audit Reference
+```
+
+---
+
+# Decision Evidence Panel
+
+Every critical request should present:
+
+- the requested action;
+- why the action is needed;
+- who requested it;
+- which policy applies;
+- what will change;
+- expected benefits;
+- possible risks;
+- available alternatives;
+- known assumptions;
+- known limitations;
+- rollback procedure;
+- execution deadline;
+- approval expiration.
+
+Approval must never be reduced to an unexplained button.
+
+---
+
+# Approval Decisions
+
+Approval Gateway supports the following decisions:
+
+| Decision | Meaning |
+|---|---|
+| Approve | Permit the requested action |
+| Approve with Constraints | Permit only within additional restrictions |
+| Deny | Reject the action |
+| Request Evidence | Require additional information |
+| Delay | Postpone until required conditions are satisfied |
+| Escalate | Forward to a higher authority |
+| Revoke | Cancel a previously issued approval |
+
+---
+
+# Scoped Approval
+
+An approval must be limited by:
+
+- identity;
+- mission;
+- action;
+- resource;
+- environment;
+- time;
+- maximum number of uses;
+- risk level;
+- policy version;
+- approval authority.
+
+A valid approval for one action must not become a general authorization for unrelated actions.
+
+---
+
+# Capability Token
+
+After approval, the gateway may issue a short-lived capability token.
+
+```text
+Capability Token ID
+Approval Request ID
+Subject Identity
+Allowed Action
+Allowed Resource
+Mission ID
+Environment
+Issued At
+Expires At
+Maximum Uses
+Policy Version
+Guardian Requirements
+Signature
+Audit Reference
+```
+
+Capability tokens must be:
+
+- short-lived;
+- cryptographically signed;
+- limited to one approved purpose;
+- revocable;
+- auditable;
+- unusable outside the approved scope.
+
+---
+
+# No Implicit Approval
+
+The following must never be treated as approval:
+
+- silence;
+- absence of denial;
+- previous approval for a different action;
+- trust in the requesting agent;
+- high confidence from an LLM;
+- urgency alone;
+- repeated requests;
+- local administrator access.
+
+> No explicit approval means no execution.
+
+---
+
+# Architect Authority
+
+The Architect may:
+
+- approve;
+- deny;
+- constrain;
+- revoke;
+- suspend;
+- request more evidence;
+- require independent review;
+- change the approval policy;
+- stop execution.
+
+HANTER may prepare recommendations.
+
+HANTER may not replace the Architect’s final decision where Architect approval is required.
+
+---
+
+# HANTER Authority
+
+HANTER may approve only actions that:
+
+- are explicitly predefined;
+- are already covered by an active policy;
+- remain within delegated authority;
+- do not alter constitutional architecture;
+- do not expand HANTER authority;
+- do not bypass Guardian Core;
+- do not require Architect approval.
+
+---
+
+# Guardian Core Integration
+
+Guardian Core may:
+
+- block an approval request;
+- increase the required approval level;
+- reduce the permitted scope;
+- require additional evidence;
+- freeze issued capability tokens;
+- revoke approval after a security event;
+- initiate emergency denial.
+
+Guardian Core may not create new executive authority.
+
+---
+
+# Audit Ledger Integration
+
+Every approval lifecycle event must be recorded:
+
+```text
+Event ID
+Approval Request ID
+Actor
+Authority Level
+Previous State
+New State
+Decision
+Reason
+Policy Reference
+Evidence Digest
+Guardian Result
+Timestamp
+Capability Token Reference
+```
+
+The approval history must remain reviewable and tamper-evident.
+
+A tamper-evident Audit Ledger has not yet been implemented.
+
+---
+
+# Approval Lifecycle
+
+```text
+Created
+   │
+   ▼
+Under Review
+   │
+   ├── Request Evidence
+   ├── Escalate
+   ├── Deny
+   └── Approve
+          │
+          ▼
+       Active
+          │
+    ┌─────┼─────┐
+    ▼     ▼     ▼
+ Executed Expired Revoked
+          │
+          ▼
+       Archived
+```
+
+---
+
+# Expiration
+
+Every approval should expire automatically.
+
+Expiration may occur after:
+
+- a defined time period;
+- mission completion;
+- one successful execution;
+- identity change;
+- policy change;
+- risk change;
+- Guardian Core restriction;
+- Architect revocation.
+
+Permanent reusable approval is prohibited unless explicitly defined by a separate approved policy.
+
+---
+
+# Revocation
+
+Approval must be revoked when:
+
+- the requester identity is compromised;
+- the mission changes;
+- the target resource changes;
+- the risk level increases;
+- the applicable policy changes;
+- evidence is found to be invalid;
+- Guardian Core detects a violation;
+- the Architect cancels the decision.
+
+---
+
+# Emergency Approval
+
+Emergency approval may be used only for predefined emergency scenarios.
+
+Requirements:
+
+- separate emergency identity;
+- explicit reason;
+- reduced scope;
+- short expiration;
+- continuous Guardian Core visibility;
+- enhanced Audit Ledger recording;
+- mandatory post-event review.
+
+Emergency mode must not become a hidden path for permanent authority expansion.
+
+---
+
+# Multi-Orchestrator Architecture
+
+Each domain may have its own approval workflow.
+
+However:
+
+- local approval cannot override constitutional policy;
+- local orchestrators cannot approve actions outside their domain;
+- approval policies remain versioned;
+- cross-domain actions require cross-domain authorization;
+- strategic actions remain under the Architect.
+
+There is no single unrestricted global orchestrator.
+
+---
+
+# Nano Core Agents Integration
+
+A Nano Core Agent may request approval only when:
+
+- it has an active AI Passport;
+- its identity is verified;
+- the mission is valid;
+- the requested action matches its professional role;
+- the Enterprise Skill is approved;
+- the request remains within its domain.
+
+An agent may not approve its own request.
+
+---
+
+# Enterprise Skills Integration
+
+Skill execution may require approval based on:
+
+- Skill Trust Tier;
+- requested capability;
+- target resource;
+- data sensitivity;
+- mission risk;
+- environment;
+- agent Trust Score.
+
+Every high-risk Skill must remain bound to explicit approval policy.
+
+---
+
+# Robotics Integration
+
+Approval Gateway is mandatory for robotics actions involving:
+
+- increased autonomy;
+- human-proximity activation;
+- critical firmware updates;
+- high-risk Physical Skills;
+- safety limit changes;
+- return-to-service after critical repair;
+- cross-domain robot transfer;
+- emergency exceptions.
+
+A robot may not approve its own physical action.
+
+---
+
+# Public / Private Boundary
+
+Public systems must never receive:
+
+- Architect approval credentials;
+- internal approval policies;
+- private evidence;
+- capability-token signing keys;
+- Guardian Core thresholds;
+- emergency approval mechanisms;
+- internal decision history.
+
+Public requests must pass through a separately governed external interface.
+
+---
+
+# Failure Conditions
+
+Approval Gateway must fail safely during:
+
+- unavailable approval service;
+- expired token;
+- invalid signature;
+- unknown requester;
+- policy mismatch;
+- stale evidence;
+- revoked identity;
+- unavailable Guardian Core;
+- conflicting approvals;
+- corrupted approval record.
+
+Default response:
+
+> Deny execution and preserve evidence.
+
+---
+
+# Required Future Verification
+
+Before production readiness, the following must be tested:
+
+- approval request creation;
+- policy matching;
+- scope enforcement;
+- token expiration;
+- token replay prevention;
+- approval revocation;
+- cross-domain denial;
+- self-approval prevention;
+- Guardian Core blocking;
+- Architect override;
+- emergency approval;
+- stale evidence rejection;
+- Audit Ledger completeness;
+- unavailable-service behavior.
+
+These tests have not yet been performed.
+
+---
+
+# Non-Negotiable Laws
+
+1. No explicit approval, no execution.
+2. No approval outside defined authority.
+3. No agent self-approval.
+4. No robot self-approval.
+5. No approval without identity.
+6. No approval without policy context.
+7. No approval without expiration.
+8. No reusable unrestricted capability token.
+9. No bypass of Guardian Core.
+10. No hidden emergency approval.
+11. No approval history deletion.
+12. No local override of constitutional authority.
+13. HANTER may execute only approved scenarios.
+14. Undefined decisions remain with the Architect.
+15. Architect authority remains final.
+
+---
+
+# Architecture vs Reality
+
+## Architecture Designed
+
+- Approval Gateway responsibilities defined.
+- Approval levels defined.
+- Decision Evidence Panel defined.
+- Scoped approvals defined.
+- Capability tokens defined.
+- Architect authority defined.
+- HANTER authority boundary defined.
+- Guardian Core integration defined.
+- Audit Ledger integration defined.
+- Multi-Orchestrator approval model defined.
+- Nano Core Agents integration defined.
+- Enterprise Skills integration defined.
+- Robotics integration defined.
+- Emergency approval model defined.
+
+## Actually Implemented
+
+- Approval Gateway is not implemented.
+- Approval service is not deployed.
+- Capability-token cryptography is not selected.
+- Architect approval interface is not implemented.
+- Decision Evidence Panel is not implemented.
+- Token revocation is not implemented.
+- Emergency approval workflow is not implemented.
+- Audit Ledger integration is not implemented.
+- Security testing has not been performed.
+
+---
+
+# Engineering Journal
+
+**Record ID:** `HP-JOURNAL-SEC002-001`  
+**Event:** Architecture Document Published
+
+**Architectural Result:**
+
+Approval Gateway is defined as the exclusive controlled boundary for actions requiring explicit authority.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|---|---|
+| Architecture | Approved |
+| Implementation | Not Started |
+| Verification | Not Performed |
+| Production | Not Deployed |
+
+---
+
+# Integrity Notice
+
+This document describes architectural intent.
+
+It does not claim that Approval Gateway software, cryptographic approval tokens, executive approval interfaces or production enforcement currently exist.
+
+---
+
+**Author and Owner — Romaskevich Alexander Nikolaevich**
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
