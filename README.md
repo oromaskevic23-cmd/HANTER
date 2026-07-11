@@ -1736,3 +1736,141 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# Architecture Manifesto
+
+HANTER is founded on the belief that architecture is the most valuable engineering asset of any long-term technology project.
+
+Software changes.
+
+Programming languages evolve.
+
+Artificial intelligence evolves.
+
+Architecture provides continuity.
+
+---
+
+# Our Philosophy
+
+We believe that sustainable intelligent systems require more than powerful models.
+
+They require:
+
+- Architecture
+- Governance
+- Security
+- Engineering Discipline
+- Knowledge
+- Transparency
+- Responsibility
+
+These principles remain valuable regardless of future technologies.
+
+---
+
+# Engineering Mindset
+
+The project promotes engineering thinking instead of feature-driven development.
+
+Every capability should answer five questions before implementation begins.
+
+## Why does it exist?
+
+Every capability must solve a clearly defined problem.
+
+---
+
+## What responsibility does it own?
+
+Responsibilities should be explicit and limited.
+
+---
+
+## What are its boundaries?
+
+Every component should define:
+
+- trust boundaries;
+- authority boundaries;
+- security boundaries;
+- operational boundaries.
+
+---
+
+## How does it integrate?
+
+Every capability should strengthen the architecture rather than increase unnecessary complexity.
+
+---
+
+## How will it evolve?
+
+Architecture should support future improvements without requiring complete redesign.
+
+---
+
+# Architectural Integrity
+
+The architecture intentionally separates:
+
+- Vision
+- Architecture
+- Engineering
+- Implementation
+- Verification
+- Production
+
+These stages are documented independently.
+
+---
+
+# Enterprise Engineering
+
+HANTER is designed according to enterprise architecture principles.
+
+The objective is to create systems that remain understandable, maintainable and governable over decades.
+
+---
+
+# Long-Term Responsibility
+
+Every architectural decision should consider its future impact.
+
+Good engineering is measured not only by today's functionality, but by tomorrow's maintainability.
+
+---
+
+# Repository Promise
+
+This repository documents engineering architecture with the intention of remaining transparent regarding:
+
+- current status;
+- architectural direction;
+- implementation maturity;
+- verification maturity.
+
+Architecture should always remain distinguishable from implementation.
+
+---
+
+# Mission Statement
+
+The mission of HANTER is to establish a secure, transparent and sustainable executive architecture capable of supporting future generations of intelligent systems.
+
+---
+
+> **"Architecture is where responsibility becomes engineering."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
