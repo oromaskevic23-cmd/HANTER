@@ -6352,3 +6352,243 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Physical Skills
+
+**Document ID:** ROB-002  
+**System:** IMPERIAL CORE Robotics Platform  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Physical Skills define the governed physical capabilities available to robotic systems within the IMPERIAL CORE ecosystem.
+
+Unlike Enterprise Skills, which describe cognitive and digital capabilities, Physical Skills represent controlled interactions with the physical world.
+
+This document specifies architectural intent only.
+
+---
+
+# Vision
+
+One professional skill.
+
+Many compatible robots.
+
+Consistent execution.
+
+Governed safety.
+
+Continuous improvement.
+
+---
+
+# Architectural Objectives
+
+Physical Skills are designed to:
+
+- standardize robotic capabilities;
+- separate skills from hardware;
+- enable safe capability reuse;
+- simplify robot training;
+- support fleet-wide deployment;
+- improve engineering quality.
+
+---
+
+# Engineering Principles
+
+Every Physical Skill follows:
+
+- One Identity
+- One Purpose
+- Explicit Safety
+- Independent Governance
+- Version Control
+- Complete Traceability
+
+---
+
+# Physical Skill Identity
+
+Every Physical Skill contains:
+
+```text
+Physical Skill ID
+Skill Name
+Version
+Category
+Publisher
+Owner
+Trust Tier
+Lifecycle Status
+Signature
+```
+
+---
+
+# Categories
+
+Examples include:
+
+- Navigation
+- Manipulation
+- Grasping
+- Carrying
+- Assembly
+- Inspection
+- Cleaning
+- Medical Assistance
+- Agricultural Tasks
+- Warehouse Operations
+- Maintenance
+- Construction
+
+The architecture allows future expansion.
+
+---
+
+# Skill Manifest
+
+Each Physical Skill describes:
+
+- purpose;
+- required hardware;
+- required sensors;
+- required actuators;
+- supported environments;
+- operational limitations;
+- safety constraints;
+- required approvals.
+
+---
+
+# Safety Constraints
+
+Every Physical Skill should explicitly define:
+
+- maximum operating force;
+- permitted environments;
+- human proximity rules;
+- emergency stop behaviour;
+- prohibited actions;
+- recovery procedures.
+
+Safety constraints are mandatory.
+
+---
+
+# Hardware Compatibility
+
+A Physical Skill may support multiple robot models.
+
+Compatibility depends on:
+
+- hardware profile;
+- sensor availability;
+- actuator capabilities;
+- software compatibility;
+- safety validation.
+
+---
+
+# Assignment Rules
+
+A robot may execute a Physical Skill only when:
+
+- Robot Passport is active;
+- mission is approved;
+- required hardware is available;
+- safety profile permits execution;
+- Guardian Core has not blocked execution;
+- Approval Gateway requirements are satisfied.
+
+---
+
+# Human Safety
+
+The architecture prioritizes:
+
+- protection of human life;
+- predictable behaviour;
+- controlled movement;
+- safe interruption;
+- immediate emergency stop capability.
+
+Physical Skills must never intentionally include behaviour designed to harm people.
+
+---
+
+# Integration
+
+Physical Skills integrate with:
+
+- Robot Passport
+- Robotics Platform
+- Fleet Federation
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Enterprise Skills
+- HANTER
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Physical Skill model defined.
+- Safety constraints defined.
+- Hardware compatibility model defined.
+- Assignment model defined.
+
+## Current Reality
+
+- Physical Skill runtime not implemented.
+- Hardware validation not implemented.
+- Safety certification not implemented.
+- Fleet deployment not implemented.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-ROB002-001
+
+**Event:** Architecture Document Published
+
+Physical Skills have been defined as governed robotic capabilities for the IMPERIAL CORE Robotics Platform.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Every physical action should be governed before it is executed."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
