@@ -651,3 +651,129 @@ The mission of HANTER is to provide a secure, governed and scalable executive co
 ---
 
 > **Architecture today. Engineering tomorrow. Reliability for decades.**
+---
+
+# Architecture Principles
+
+HANTER is designed around a set of immutable engineering principles.
+
+These principles guide every architectural decision regardless of future technologies, programming languages or AI models.
+
+---
+
+## Architecture Before Implementation
+
+Critical systems should be architected before implementation begins.
+
+Design decisions must be documented before production code exists.
+
+---
+
+## Truth Before Convenience
+
+Architecture documents distinguish between:
+
+- Design
+- Implementation
+- Verification
+
+No architectural capability is presented as implemented without evidence.
+
+---
+
+## Human Authority
+
+The Architect remains the final authority for strategic and undefined decisions.
+
+HANTER operates only within approved policies and predefined authority boundaries.
+
+---
+
+## Zero Trust by Default
+
+Every request must be authenticated, authorized and auditable.
+
+Trust is never assumed.
+
+---
+
+## Security by Design
+
+Security is part of the architecture itself.
+
+It is not an optional feature added later.
+
+---
+
+## Governance by Design
+
+Critical operations require governance.
+
+Architecture defines responsibilities before automation.
+
+---
+
+## Federation by Design
+
+HANTER is designed to coordinate multiple orchestrators.
+
+The architecture intentionally avoids a single global orchestrator.
+
+---
+
+## Transparency by Design
+
+Critical architectural decisions should be understandable, reviewable and explainable.
+
+---
+
+## Safety by Design
+
+Every autonomous capability should prioritize safety before execution.
+
+When uncertainty exceeds approved limits, the safest action is to stop, preserve evidence and request human review.
+
+---
+
+## Knowledge by Design
+
+Knowledge is treated as a strategic engineering asset.
+
+Architectural decisions, standards and engineering experience should be preserved for future generations.
+
+---
+
+## Continuous Improvement
+
+Architecture is expected to evolve through engineering review.
+
+Improvement is encouraged.
+
+Uncontrolled change is not.
+
+---
+
+## Long-Term Engineering
+
+The project is designed for long-term evolution.
+
+Architectural stability should outlive individual technologies.
+
+---
+
+# Engineering Values
+
+The project promotes:
+
+- Professional Engineering
+- Responsible AI
+- Enterprise Architecture
+- Security
+- Transparency
+- Documentation
+- Long-Term Thinking
+- Respect for Human Authority
+
+---
+
+> "Technology changes. Sound architecture endures."
