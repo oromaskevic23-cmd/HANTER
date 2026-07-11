@@ -405,3 +405,77 @@ Verify always.
 Founder • Owner • Chief Systems Architect
 
 © IMPERIAL Core
+---
+
+# Why This Repository Exists
+
+Most software repositories begin with implementation.
+
+This repository begins with architecture.
+
+The purpose of HANTER is not to present unfinished ideas as completed products.
+
+Instead, it documents a long-term engineering vision, architectural decisions and governance principles before implementation begins.
+
+Every major capability is expected to pass through the following lifecycle:
+
+```text
+Vision
+    │
+    ▼
+Architecture
+    │
+    ▼
+Review
+    │
+    ▼
+Implementation
+    │
+    ▼
+Verification
+    │
+    ▼
+Production
+```
+
+This repository intentionally distinguishes between:
+
+| Stage | Meaning |
+|--------|---------|
+| Architecture | Long-term design specification |
+| Implementation | Working software |
+| Verification | Independently tested capability |
+| Production | Operational deployment |
+
+No architectural document should be interpreted as evidence that a capability already exists.
+
+---
+
+# Engineering Standards
+
+The project follows enterprise engineering principles.
+
+Every architectural decision should be:
+
+- Documented
+- Reviewable
+- Explainable
+- Testable
+- Auditable
+- Maintainable
+- Scalable
+- Secure
+
+---
+
+# Repository Mission
+
+The mission of this repository is to create a transparent architectural foundation for the future HANTER platform.
+
+The objective is not rapid implementation.
+
+The objective is building a sustainable architecture capable of evolving over decades.
+
+---
+
+> **"Strong systems are built on strong architecture."**
