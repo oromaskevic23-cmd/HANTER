@@ -5340,3 +5340,250 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Enterprise Skills
+
+**Document ID:** SK-001  
+**System:** HANTER  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Enterprise Skills define the governed professional capabilities available to Nano Core Agents, Robotics and future intelligent systems within the IMPERIAL CORE ecosystem.
+
+A Skill is treated as a managed architectural asset rather than an isolated software function.
+
+This document specifies architectural intent only.
+
+---
+
+# Architectural Objectives
+
+Enterprise Skills are designed to:
+
+- standardize professional capabilities;
+- support safe capability reuse;
+- preserve provenance;
+- enable controlled evolution;
+- simplify orchestration;
+- improve engineering quality.
+
+---
+
+# Engineering Principles
+
+Every Enterprise Skill follows:
+
+- Unique Identity
+- Explicit Purpose
+- Version Control
+- Independent Governance
+- Controlled Distribution
+- Continuous Verification
+
+---
+
+# Skill Identity
+
+Each Skill contains:
+
+```text
+Skill ID
+Skill Name
+Version
+Publisher
+Owner
+Category
+Trust Tier
+Lifecycle Status
+Signature
+```
+
+---
+
+# Skill Manifest
+
+Every Skill should publish a structured manifest describing:
+
+- purpose;
+- inputs;
+- outputs;
+- required permissions;
+- runtime dependencies;
+- supported environments;
+- security considerations;
+- operational limitations.
+
+Future implementations may support compatibility with the SKILL.md convention where appropriate.
+
+---
+
+# Skill Categories
+
+Examples include:
+
+- Engineering
+- Research
+- Programming
+- Security
+- Robotics
+- Knowledge
+- Finance
+- Operations
+- Media
+- Design
+- Healthcare
+- Legal
+
+The architecture allows additional categories to be introduced over time.
+
+---
+
+# Trust Tiers
+
+Future implementations may classify Skills by trust tier.
+
+| Tier | Description |
+|-------|-------------|
+| ST0 | Experimental |
+| ST1 | Verified |
+| ST2 | Trusted |
+| ST3 | Enterprise |
+| ST4 | Executive Critical |
+
+Trust tier influences governance but does not grant authority by itself.
+
+---
+
+# Lifecycle
+
+Every Skill follows:
+
+```text
+Proposal
+      │
+      ▼
+Architecture Review
+      │
+      ▼
+Implementation
+      │
+      ▼
+Verification
+      │
+      ▼
+Publication
+      │
+      ▼
+Operational Use
+      │
+      ▼
+Revision
+      │
+      ▼
+Retirement
+```
+
+---
+
+# Assignment
+
+A Skill may be assigned only when:
+
+- the receiving identity is verified;
+- the mission requires the capability;
+- applicable policies permit use;
+- required approvals have been granted.
+
+---
+
+# Security
+
+Future implementations should support:
+
+- digital signatures;
+- integrity verification;
+- version history;
+- controlled distribution;
+- revocation;
+- sandbox execution where appropriate.
+
+Specific implementation technologies have not yet been selected.
+
+---
+
+# Integration
+
+Enterprise Skills integrate with:
+
+- AI Passport
+- Robot Passport
+- Identity Lifecycle
+- Executive Credential Authority
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Multi-Orchestrator Architecture
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Skill model defined.
+- Manifest model defined.
+- Trust tiers defined.
+- Lifecycle defined.
+- Governance model defined.
+
+## Current Reality
+
+- Skill Registry not implemented.
+- Manifest validation not implemented.
+- Skill signing not implemented.
+- Runtime enforcement not implemented.
+- Verification framework not implemented.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-SK001-001
+
+**Event:** Architecture Document Published
+
+Enterprise Skills have been defined as governed professional capabilities for the HANTER ecosystem.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Professional intelligence is built from governed capabilities."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner •Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
