@@ -7749,3 +7749,167 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# ADR-0002 — AI Passport Architecture
+
+**Document ID:** ADR-0002  
+**Category:** Architecture Decision Record  
+**Status:** Accepted  
+**Decision Date:** 2026  
+**System:** HANTER
+
+---
+
+# Decision
+
+Every Nano Core Agent shall possess its own governed AI Passport.
+
+The AI Passport becomes the permanent professional identity of the agent throughout its operational lifecycle.
+
+This document records the architectural decision and its rationale.
+
+---
+
+# Context
+
+As the number of intelligent agents increases, identity becomes a strategic engineering concern.
+
+Simple identifiers are insufficient for long-term governance.
+
+The architecture requires a richer identity model capable of supporting:
+
+- professional roles;
+- Enterprise Skills;
+- trust evaluation;
+- mission assignment;
+- lifecycle governance;
+- engineering traceability.
+
+---
+
+# Decision Summary
+
+Every Nano Core Agent receives exactly one AI Passport.
+
+The passport represents:
+
+- professional identity;
+- organizational assignment;
+- approved capabilities;
+- operational history;
+- lifecycle state.
+
+Identity remains independent from authorization.
+
+---
+
+# Expected Benefits
+
+The decision is intended to improve:
+
+- governance;
+- accountability;
+- traceability;
+- scalability;
+- professional specialization;
+- engineering transparency.
+
+---
+
+# Trade-Offs
+
+The architecture introduces additional identity management complexity.
+
+This is considered acceptable because it enables long-term governance across large numbers of intelligent agents.
+
+---
+
+# Alternatives Considered
+
+## Alternative A
+
+Simple Agent Identifier
+
+Advantages:
+
+- easier implementation;
+- minimal storage.
+
+Disadvantages:
+
+- weak governance;
+- limited traceability;
+- poor scalability.
+
+Decision:
+
+Not selected.
+
+---
+
+## Alternative B
+
+Governed AI Passport
+
+Advantages:
+
+- lifecycle management;
+- professional identity;
+- trust integration;
+- engineering governance.
+
+Decision:
+
+Selected.
+
+---
+
+# Consequences
+
+Future architecture documents should assume:
+
+- one passport per agent;
+- governed identity lifecycle;
+- independent authorization;
+- integration with Enterprise Skills;
+- integration with Guardian Core;
+- integration with Approval Gateway.
+
+---
+
+# Related Documents
+
+- ID-001 — AI Passport
+- ID-003 — Identity Lifecycle
+- SK-001 — Enterprise Skills
+- SEC-001 — Guardian Core
+- SEC-002 — Approval Gateway
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+The AI Passport model has been approved.
+
+## Current Reality
+
+No production AI Passport service currently exists.
+
+---
+
+> **"Professional identity enables professional responsibility."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
