@@ -7913,3 +7913,166 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# ADR-0003 — Guardian Core Independence
+
+**Document ID:** ADR-0003  
+**Category:** Architecture Decision Record  
+**Status:** Accepted  
+**Decision Date:** 2026  
+**System:** HANTER
+
+---
+
+# Decision
+
+Guardian Core shall remain an independent security authority and shall not operate as a subsystem of the executive runtime.
+
+Its primary responsibility is to preserve the constitutional integrity of the architecture, independently evaluate security conditions and prevent prohibited execution.
+
+This document records the architectural decision and its rationale.
+
+---
+
+# Context
+
+As intelligent systems become more autonomous, security mechanisms must remain independent from operational decision-making.
+
+A security component embedded directly into the execution layer may be affected by failures, privilege escalation or architectural drift.
+
+The architecture therefore requires an independent protection domain.
+
+---
+
+# Decision Summary
+
+Guardian Core operates separately from executive orchestration.
+
+Its responsibilities include:
+
+- policy verification;
+- identity validation support;
+- runtime supervision;
+- anomaly detection;
+- emergency intervention;
+- constitutional protection.
+
+Guardian Core evaluates execution but does not replace executive authority.
+
+---
+
+# Expected Benefits
+
+The decision is intended to improve:
+
+- independence;
+- security;
+- resilience;
+- architectural integrity;
+- governance transparency;
+- incident response.
+
+---
+
+# Trade-Offs
+
+The architecture introduces:
+
+- additional coordination;
+- separate security workflows;
+- more engineering complexity.
+
+These trade-offs are accepted because they significantly strengthen long-term system protection.
+
+---
+
+# Alternatives Considered
+
+## Alternative A
+
+Integrated Security Module
+
+Advantages:
+
+- simpler implementation;
+- fewer components.
+
+Disadvantages:
+
+- weaker isolation;
+- larger attack surface;
+- reduced independence.
+
+Decision:
+
+Not selected.
+
+---
+
+## Alternative B
+
+Independent Guardian Core
+
+Advantages:
+
+- architectural separation;
+- stronger governance;
+- independent supervision;
+- improved resilience.
+
+Decision:
+
+Selected.
+
+---
+
+# Consequences
+
+Future architecture documents should assume:
+
+- Guardian Core remains independent;
+- Guardian Core cannot expand its own authority;
+- Guardian Core cannot override constitutional authority;
+- Guardian Core integrates with Approval Gateway;
+- Guardian Core integrates with Audit Ledger.
+
+---
+
+# Related Documents
+
+- SEC-001 — Guardian Core
+- SEC-002 — Approval Gateway
+- SEC-003 — Audit Ledger
+- SEC-004 — Zero Trust Architecture
+- SEC-005 — Trust Boundaries
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+The independent Guardian Core architecture has been approved.
+
+## Current Reality
+
+No production Guardian Core implementation currently exists.
+
+No independent runtime has been deployed.
+
+---
+
+> **"Independent protection strengthens trusted architecture."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
