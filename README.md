@@ -1874,3 +1874,161 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# Architecture Governance Model
+
+HANTER is governed through explicit architectural responsibility rather than implicit system behavior.
+
+Governance exists to preserve long-term architectural integrity while enabling continuous engineering evolution.
+
+---
+
+# Governance Principles
+
+The governance model is based on the following permanent principles.
+
+## Constitutional Architecture
+
+The Architecture Constitution defines the immutable foundation of the ecosystem.
+
+Constitutional rules are intentionally difficult to modify and require explicit architectural approval.
+
+---
+
+## Human Final Authority
+
+Strategic authority remains under the Architect.
+
+HANTER coordinates, evaluates and executes only within approved governance boundaries.
+
+Undefined or constitutional decisions are never resolved autonomously.
+
+---
+
+## Multi-Orchestrator Governance
+
+The ecosystem supports multiple executive orchestrators operating within defined domains.
+
+Responsibilities remain distributed.
+
+Authority remains governed.
+
+---
+
+## Policy Before Execution
+
+Every critical action should be evaluated against approved policies before execution.
+
+Policy evaluation is considered an architectural responsibility.
+
+---
+
+## Independent Protection
+
+Guardian Core exists independently from executive orchestration.
+
+Its objective is to preserve constitutional architecture, verify compliance and prevent prohibited execution.
+
+---
+
+## Explicit Approval
+
+Critical architectural operations require explicit approval through the Approval Gateway.
+
+Approval should always be reviewable and auditable.
+
+---
+
+## Complete Auditability
+
+Significant architectural decisions should leave permanent engineering evidence.
+
+Auditability is considered a first-class engineering capability.
+
+---
+
+# Governance Layers
+
+```text
+Architect
+        │
+        ▼
+Architecture Constitution
+        │
+        ▼
+Governance Policies
+        │
+        ▼
+Guardian Core
+        │
+        ▼
+Approval Gateway
+        │
+        ▼
+HANTER
+        │
+        ▼
+Nano Core Agents
+        │
+        ▼
+Enterprise Skills
+        │
+        ▼
+Mission Execution
+        │
+        ▼
+Audit Ledger
+```
+
+---
+
+# Governance Objectives
+
+The governance model is intended to achieve:
+
+- Architectural Integrity
+- Engineering Transparency
+- Explicit Responsibility
+- Controlled Evolution
+- Secure Delegation
+- Human Accountability
+- Long-Term Sustainability
+
+---
+
+# Repository Commitment
+
+Governance documentation should evolve together with architecture.
+
+Every governance decision should remain:
+
+- understandable;
+- reviewable;
+- explainable;
+- traceable;
+- maintainable.
+
+---
+
+# Engineering Statement
+
+Strong governance enables strong engineering.
+
+Strong engineering enables long-term systems.
+
+---
+
+> **"Governance protects architecture. Architecture protects the future."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
