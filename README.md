@@ -1326,3 +1326,142 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# What Makes HANTER Different
+
+HANTER is intentionally designed as an engineering platform rather than a conversational AI assistant.
+
+The objective is to establish a transparent, governed and long-term executive architecture.
+
+---
+
+## Architecture First
+
+Every critical capability begins as architecture.
+
+Implementation follows only after architectural review.
+
+---
+
+## Engineering Before Marketing
+
+This repository documents engineering decisions rather than marketing claims.
+
+Capabilities are never presented as implemented without evidence.
+
+---
+
+## Human Authority
+
+The Architect remains the final decision authority.
+
+HANTER executes only within approved policies and explicitly defined authority boundaries.
+
+---
+
+## Multi-Orchestrator Architecture
+
+The ecosystem is designed around multiple executive orchestrators rather than a single global controller.
+
+This approach improves:
+
+- scalability;
+- resilience;
+- governance;
+- organizational flexibility.
+
+---
+
+## Enterprise Skills
+
+Professional capabilities are treated as governed architectural assets.
+
+Every Enterprise Skill has:
+
+- identity;
+- ownership;
+- version;
+- verification status;
+- trust level;
+- lifecycle.
+
+---
+
+## AI Passport
+
+Every Nano Core Agent possesses its own professional identity.
+
+Identity includes:
+
+- professional role;
+- responsibilities;
+- Enterprise Skills;
+- trust classification;
+- operational history.
+
+Identity does not automatically grant authority.
+
+---
+
+## Robotics Integration
+
+The architecture extends beyond software.
+
+Long-term architectural directions include:
+
+- Robot Passport;
+- Physical Skills;
+- Robotics Platform;
+- Robotics Factory;
+- Fleet Federation.
+
+These represent architectural design and should not be interpreted as completed implementations.
+
+---
+
+## Knowledge Preservation
+
+Engineering knowledge is considered a strategic asset.
+
+Architectural decisions should remain understandable years after they are written.
+
+---
+
+## Continuous Evolution
+
+Architecture is expected to evolve.
+
+However, evolution must preserve:
+
+- engineering quality;
+- constitutional principles;
+- security;
+- documentation;
+- auditability.
+
+---
+
+# Engineering Philosophy
+
+The project is based on one simple belief:
+
+> **Reliable systems are created by disciplined engineering, not by accidental complexity.**
+
+---
+
+# Repository Commitment
+
+This repository is committed to:
+
+- architectural honesty;
+- responsible engineering;
+- transparent governance;
+- long-term maintainability;
+- continuous improvement.
+
+Every document should make the architecture stronger than it was yesterday.
+
+---
+
+> **Architecture. Code. Action.**
