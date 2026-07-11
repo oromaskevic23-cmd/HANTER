@@ -8076,3 +8076,229 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# HANTER Architecture Book
+
+> Official Enterprise Architecture Reference
+
+Version: 1.0
+
+Status: Living Architecture
+
+---
+
+# Purpose
+
+The Architecture Book is the official reference describing the enterprise architecture of HANTER.
+
+It provides a structured overview of all architectural domains, explains how they relate to one another and serves as the primary entry point for engineers, architects and future contributors.
+
+This document describes architectural intent and documentation structure.
+
+It does not imply that all referenced systems have been implemented.
+
+---
+
+# Architectural Vision
+
+HANTER is designed as a sovereign executive platform for governing intelligent systems.
+
+Its long-term objective is to provide a secure, modular and scalable architecture capable of coordinating professional AI agents, robotics platforms and future enterprise services while preserving transparency, governance and human oversight.
+
+---
+
+# Engineering Philosophy
+
+The architecture is based on several permanent principles:
+
+- Architecture Before Implementation
+- Truth Before Convenience
+- Security by Design
+- Governance by Design
+- Zero Trust
+- Human Final Authority
+- Continuous Improvement
+- Complete Traceability
+
+---
+
+# Architecture Domains
+
+The architecture is organized into the following domains.
+
+## Executive Foundation
+
+Defines executive authority, command structures and governance.
+
+Includes:
+
+- Sovereign Command Workspace
+- Executive Credential Authority
+- Executive Session Security
+- Executive Policy Engine
+
+---
+
+## Security Foundation
+
+Defines the permanent security model.
+
+Includes:
+
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Zero Trust
+- Trust Boundaries
+
+---
+
+## Identity Foundation
+
+Defines trusted identities.
+
+Includes:
+
+- AI Passport
+- Robot Passport
+- Identity Lifecycle
+
+---
+
+## Enterprise Skills Foundation
+
+Defines governed professional capabilities.
+
+Includes:
+
+- Enterprise Skills
+- Skill Registry
+- Skill Lifecycle
+
+---
+
+## Robotics Foundation
+
+Defines intelligent robotics architecture.
+
+Includes:
+
+- Robotics Platform
+- Physical Skills
+- Fleet Federation
+- Robotics Factory
+- Robot Runtime
+- Robot Operating Modes
+
+---
+
+## Governance Foundation
+
+Defines architectural governance.
+
+Includes:
+
+- Architecture Constitution
+- Hunter Protocol
+- Engineering Laws
+- Architecture Decision Records
+
+---
+
+## Documentation Principles
+
+Every document should contain:
+
+- Purpose
+- Architectural Objectives
+- Responsibilities
+- Integration
+- Engineering Status
+- Architecture vs Reality
+- Engineering Journal
+
+Architecture and implementation remain explicitly separated.
+
+---
+
+# Engineering Maturity
+
+Every architectural document progresses through the following lifecycle.
+
+| Stage | Description |
+|--------|-------------|
+| Draft | Initial architectural proposal |
+| Approved | Approved by the Architect |
+| Implementation | Software or hardware implementation |
+| Verification | Independently verified |
+| Production | Operational deployment |
+
+Architecture should never be confused with implementation.
+
+---
+
+# Repository Navigation
+
+The documentation is organized as follows.
+
+```text
+docs/
+│
+├── ARCHITECTURE-BOOK.md
+├── ARCHITECTURE-REGISTRY.md
+├── README.md
+│
+├── architecture/
+├── security/
+├── governance/
+├── robotics/
+├── passports/
+├── skills/
+├── protocols/
+├── runtime/
+├── knowledge/
+└── operations/
+```
+
+---
+
+# Long-Term Vision
+
+The Architecture Book is intended to evolve continuously.
+
+Future revisions should improve:
+
+- clarity;
+- engineering quality;
+- architectural consistency;
+- governance;
+- maintainability.
+
+---
+
+# Integrity Statement
+
+This Architecture Book documents the intended architecture of HANTER.
+
+Implementation status is tracked independently.
+
+Verification status is tracked independently.
+
+Production deployment is tracked independently.
+
+---
+
+> **"Architecture is not only a description of systems. It is the preservation of engineering knowledge across generations."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
