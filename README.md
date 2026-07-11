@@ -4314,3 +4314,299 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Trust Boundaries
+
+**Document ID:** SEC-005  
+**System:** HANTER  
+**System Role:** Closed Personal Command Center of Alexander Romaskevich  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Trust Boundaries define the security domains of HANTER and regulate how information, authority and execution may cross from one domain to another.
+
+Every boundary exists to reduce risk, preserve governance and prevent uncontrolled privilege escalation.
+
+This document specifies architectural intent only.
+
+---
+
+# Engineering Principles
+
+Trust boundaries follow five permanent principles:
+
+- Explicit Separation
+- Least Privilege
+- Controlled Interfaces
+- Continuous Verification
+- Complete Auditability
+
+---
+
+# Security Domains
+
+## Domain A
+
+Architect Workspace
+
+Highest executive authority.
+
+Contains:
+
+- Strategic decisions
+- Constitutional approvals
+- Executive knowledge
+- Long-term architecture
+
+---
+
+## Domain B
+
+Guardian Core
+
+Independent protection domain.
+
+Responsible for:
+
+- policy enforcement;
+- security validation;
+- anomaly detection;
+- emergency protection.
+
+Guardian Core remains independent from executive orchestration.
+
+---
+
+## Domain C
+
+Executive Runtime
+
+Contains:
+
+- HANTER runtime;
+- executive orchestration;
+- mission coordination;
+- operational workflows.
+
+---
+
+## Domain D
+
+Nano Core Agents
+
+Professional AI workforce.
+
+Each agent operates under:
+
+- AI Passport;
+- Enterprise Skills;
+- explicit mission scope;
+- defined trust level.
+
+---
+
+## Domain E
+
+Robotics Platform
+
+Contains:
+
+- Robot Passports;
+- Physical Skills;
+- Fleet Federation;
+- robotics execution.
+
+---
+
+## Domain F
+
+Knowledge Layer
+
+Contains:
+
+- architecture;
+- engineering documentation;
+- research;
+- institutional knowledge.
+
+---
+
+## Domain G
+
+External World
+
+Includes:
+
+- APIs;
+- public services;
+- cloud providers;
+- third-party systems;
+- public users.
+
+No external system is implicitly trusted.
+
+---
+
+# Boundary Rules
+
+Every boundary crossing requires evaluation of:
+
+- identity;
+- authority;
+- policy;
+- resource scope;
+- approval state;
+- risk level.
+
+---
+
+# Protected Transitions
+
+Examples:
+
+Architect → Executive Runtime
+
+Requires:
+
+- verified identity;
+- executive authority;
+- trusted device;
+- active session.
+
+---
+
+Nano Core Agent → Knowledge Layer
+
+Requires:
+
+- AI Passport;
+- approved Enterprise Skill;
+- mission scope;
+- read policy.
+
+---
+
+External System → HANTER
+
+Requires:
+
+- authenticated identity;
+- approved interface;
+- policy validation;
+- Guardian Core monitoring.
+
+---
+
+Robot → Executive Runtime
+
+Requires:
+
+- Robot Passport;
+- trusted hardware;
+- approved mission;
+- safety validation.
+
+---
+
+# Forbidden Direct Access
+
+The following paths are prohibited:
+
+- External → Architect Workspace
+- External → Guardian Core
+- External → Approval Gateway
+- External → Audit Ledger
+- Nano Core Agent → Architect Identity
+- Robot → Architect Identity
+- Skill → Executive Authority
+- Public Interface → Internal Secrets
+
+Every prohibited path must be denied by default.
+
+---
+
+# Integration
+
+Trust Boundaries integrate with:
+
+- Zero Trust Architecture
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Executive Credential Authority
+- AI Passport
+- Robot Passport
+- Enterprise Skills
+
+---
+
+# Failure Policy
+
+If boundary validation fails:
+
+- deny access;
+- preserve audit evidence;
+- notify Guardian Core;
+- terminate unauthorized session when necessary.
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Trust domains defined.
+- Security boundaries defined.
+- Protected transitions defined.
+- Forbidden paths defined.
+
+## Current Reality
+
+- Boundary enforcement not implemented.
+- Runtime isolation not implemented.
+- Cross-domain validation not implemented.
+- Security verification not performed.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-SEC005-001
+
+**Event:** Architecture Document Published
+
+Trust Boundaries have been defined as the security domain model for HANTER.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Clear boundaries create secure systems."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
