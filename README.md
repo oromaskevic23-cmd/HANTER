@@ -2185,3 +2185,205 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# Enterprise Design Principles
+
+HANTER is designed according to enterprise architecture principles intended to support long-term evolution, operational stability and responsible intelligent systems.
+
+Every future component should align with these principles.
+
+---
+
+# Principle 01
+
+## Simplicity Before Complexity
+
+Complexity should never be introduced without measurable architectural value.
+
+Simple systems are easier to understand.
+
+Simple systems are easier to maintain.
+
+Simple systems are easier to secure.
+
+---
+
+# Principle 02
+
+## Explicit Architecture
+
+Hidden behavior should be avoided.
+
+Responsibilities should be documented.
+
+Interfaces should be defined.
+
+Trust boundaries should be visible.
+
+---
+
+# Principle 03
+
+## Independent Components
+
+Every architectural component should evolve independently whenever possible.
+
+Loose coupling.
+
+Strong governance.
+
+Clear interfaces.
+
+---
+
+# Principle 04
+
+## Security Is Infrastructure
+
+Security is not an additional feature.
+
+Security is part of the architecture itself.
+
+Every subsystem should contribute to the overall security posture.
+
+---
+
+# Principle 05
+
+## Knowledge Is Infrastructure
+
+Knowledge should be treated as an enterprise asset.
+
+Architecture should preserve engineering knowledge across generations.
+
+Documentation is considered part of the system.
+
+---
+
+# Principle 06
+
+## Human-Centered Engineering
+
+Technology exists to assist people.
+
+Engineering should improve human capability rather than reduce human responsibility.
+
+---
+
+# Principle 07
+
+## Explainability
+
+Every important architectural decision should answer:
+
+- Why was this designed?
+- Which problem does it solve?
+- What alternatives were considered?
+- What trade-offs were accepted?
+
+Architecture should remain understandable years after publication.
+
+---
+
+# Principle 08
+
+## Responsible Automation
+
+Automation should increase reliability.
+
+Automation should never reduce accountability.
+
+Human authority remains explicitly defined.
+
+---
+
+# Principle 09
+
+## Sustainable Engineering
+
+Architecture should remain maintainable throughout long-term evolution.
+
+Engineering decisions should avoid unnecessary technical debt whenever practical.
+
+---
+
+# Principle 10
+
+## Continuous Architecture
+
+Architecture is never considered finished.
+
+Every revision should improve:
+
+- clarity;
+- consistency;
+- scalability;
+- governance;
+- maintainability.
+
+---
+
+# Enterprise Engineering Mindset
+
+Architecture should enable engineering.
+
+Engineering should enable implementation.
+
+Implementation should enable verification.
+
+Verification should enable production.
+
+Production should generate knowledge.
+
+Knowledge should improve architecture.
+
+---
+
+```text
+Architecture
+      │
+      ▼
+Engineering
+      │
+      ▼
+Implementation
+      │
+      ▼
+Verification
+      │
+      ▼
+Production
+      │
+      ▼
+Knowledge
+      │
+      ▼
+Architecture
+```
+
+This continuous engineering cycle represents the intended long-term evolution model of HANTER.
+
+---
+
+# Engineering Philosophy
+
+Enterprise architecture is not only about designing systems.
+
+It is about designing systems that remain understandable, governable and trustworthy over time.
+
+---
+
+> **"Architecture transforms ideas into sustainable engineering."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
