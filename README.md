@@ -1186,3 +1186,143 @@ Great systems are built from connected architecture.**
 Founder • Owner • Chief Systems Architect
 
 © IMPERIAL CORE
+---
+
+# Engineering Quality Standards
+
+HANTER follows enterprise engineering quality standards designed to support long-term maintainability, security and architectural consistency.
+
+Quality is treated as a core architectural capability rather than a final development step.
+
+---
+
+# Engineering Objectives
+
+Every architectural decision should improve one or more of the following:
+
+- Security
+- Reliability
+- Scalability
+- Maintainability
+- Transparency
+- Auditability
+- Performance
+- Simplicity
+
+---
+
+# Documentation Standard
+
+Every architecture document should contain:
+
+- Purpose
+- Scope
+- Architectural Overview
+- Responsibilities
+- Trust Boundaries
+- Security Considerations
+- Integration Points
+- Dependencies
+- Risks
+- Future Improvements
+- Architecture Status
+- Implementation Status
+- Verification Status
+
+---
+
+# Review Standard
+
+Before implementation, every major architectural component should undergo:
+
+- Architecture Review
+- Security Review
+- Governance Review
+- Risk Assessment
+- Integration Review
+- Documentation Review
+
+Architecture is reviewed before software is written.
+
+---
+
+# Quality Gates
+
+```text
+Research
+     │
+     ▼
+Architecture
+     │
+     ▼
+Engineering Review
+     │
+     ▼
+Security Review
+     │
+     ▼
+Implementation
+     │
+     ▼
+Verification
+     │
+     ▼
+Production
+```
+
+Every stage should be completed before proceeding to the next.
+
+---
+
+# Engineering Transparency
+
+This repository intentionally separates:
+
+| Phase | Description |
+|--------|-------------|
+| Architecture | Intended long-term design |
+| Implementation | Working software |
+| Verification | Tested capability |
+| Production | Operational deployment |
+
+No implementation claims are made without evidence.
+
+---
+
+# Continuous Engineering
+
+Architecture is expected to improve continuously.
+
+Changes should strengthen the system while preserving:
+
+- architectural consistency;
+- engineering quality;
+- security;
+- governance;
+- maintainability.
+
+---
+
+# Long-Term Engineering Vision
+
+The objective is not simply to build software.
+
+The objective is to establish a sustainable engineering foundation capable of supporting future generations of intelligent systems.
+
+---
+
+> **"Engineering excellence begins with architectural discipline."**
+
+---
+
+**Author and Owner**
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
