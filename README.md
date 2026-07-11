@@ -123,3 +123,95 @@ Founder • Owner • Chief Systems Architect
 ---
 
 © IMPERIAL CORE
+# HANTER
+
+> **Private Executive Command Center of IMPERIAL Core**
+
+[![Architecture](https://img.shields.io/badge/Status-Architecture-blue.svg)]()
+[![Implementation](https://img.shields.io/badge/Implementation-Not%20Started-lightgrey.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+
+---
+
+# Founder
+
+## Alexander Romaskevich
+
+**Founder • Owner • Chief Systems Architect**
+
+Designing long-term AI-native enterprise architecture for the next generation of intelligent systems.
+
+---
+
+# Executive Engineering
+
+## NERO
+
+**Chief Engineering Director**
+
+Responsible for enterprise architecture, engineering standards, long-term system design and technical governance.
+
+---
+
+# HANTER
+
+HANTER is the private executive command center of the Architect.
+
+Its mission is to coordinate, govern and protect the IMPERIAL Core ecosystem through secure orchestration, architecture governance and executive decision support.
+
+---
+
+# IMPERIAL CORE
+
+IMPERIAL CORE is a long-term enterprise architecture project focused on:
+
+- Artificial Intelligence
+- Multi-Agent Systems
+- Enterprise Architecture
+- Robotics
+- AI Governance
+- Executive Orchestration
+- Zero Trust Security
+- Knowledge Systems
+
+---
+
+# Ecosystem
+
+- HANTER
+- NERO
+- Nano Core Agents
+- Robotics Platform
+- LEGION
+- Capital Core
+- CRYPTO IMPERIAL Ecosystem
+
+---
+
+# Engineering Philosophy
+
+- Architecture Before Implementation
+- Truth Before Convenience
+- Human Authority
+- Safety by Design
+- Zero Trust
+- Long-Term Thinking
+- Continuous Improvement
+
+---
+
+# Repository Status
+
+Architecture: ✅ Active
+
+Implementation: ❌ Not Started
+
+Verification: ❌ Not Performed
+
+This repository documents enterprise architecture.
+
+It does not claim that the described systems are already implemented.
+
+---
+
+© IMPERIAL CORE
