@@ -1032,3 +1032,157 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# Enterprise Architecture Index
+
+This repository is organized as a structured enterprise architecture rather than a traditional software repository.
+
+Every document belongs to a defined architectural domain.
+
+---
+
+# Architecture Domains
+
+## Executive Architecture
+
+- HANTER
+- Executive Operating System
+- Mission Governance
+- Executive Decision Model
+- Executive Workspace
+
+---
+
+## Security Architecture
+
+- Zero Trust
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Identity Architecture
+- Trust Boundaries
+- Secret Management
+
+---
+
+## AI Architecture
+
+- Nano Core Agents
+- AI Passport
+- Enterprise Skills
+- Multi-Agent Coordination
+- Professional AI Teams
+- Knowledge Routing
+
+---
+
+## Robotics Architecture
+
+- Universal Robotics Platform
+- Robot Passport
+- Physical Skills
+- Robotics Intelligence Layer
+- Robotics Factory
+- Robotics Certification
+- Robotics Digital Twin
+- Fleet Federation
+- Executive Robotics
+- Industrial Robotics
+- Medical Robotics
+- Logistics Robotics
+
+---
+
+## Knowledge Architecture
+
+- Architecture Knowledge
+- Engineering Standards
+- Documentation
+- Obsidian Knowledge Layer
+- Future IMPERIAL Knowledge Core (IKC)
+
+---
+
+## Governance Architecture
+
+- Architecture Constitution
+- Robotics Constitution
+- Engineering Constitution
+- Hunter Protocol
+- Decision Governance
+- Risk Governance
+
+---
+
+## Future Enterprise Domains
+
+Long-term architectural directions include:
+
+- LEGION
+- ORION
+- Capital Core
+- CRYPTO IMPERIAL Ecosystem
+
+These domains represent future architectural directions and should not be interpreted as completed implementations.
+
+---
+
+# Repository Structure
+
+```text
+docs/
+ ├── architecture/
+ ├── constitution/
+ ├── governance/
+ ├── security/
+ ├── runtime/
+ ├── robotics/
+ ├── knowledge/
+ ├── passports/
+ ├── skills/
+ ├── operations/
+ ├── diagrams/
+ └── roadmap/
+```
+
+---
+
+# Engineering Documentation Standard
+
+Every architectural document should clearly specify:
+
+- Purpose
+- Scope
+- Architecture
+- Responsibilities
+- Trust Boundaries
+- Security Considerations
+- Integration
+- Implementation Status
+- Verification Status
+
+---
+
+# Repository Quality Standard
+
+The objective is not simply to publish documentation.
+
+The objective is to create a consistent, reviewable and maintainable enterprise architecture that can evolve over decades.
+
+Every document should strengthen the architecture as a whole.
+
+---
+
+> **Great systems are not built from isolated documents.  
+Great systems are built from connected architecture.**
+
+---
+
+**Author and Owner**
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+© IMPERIAL CORE
