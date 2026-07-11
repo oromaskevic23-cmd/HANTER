@@ -215,3 +215,193 @@ It does not claim that the described systems are already implemented.
 ---
 
 © IMPERIAL CORE
+---
+
+# IMPERIAL Core Architecture Map
+
+```text
+Alexander Romaskevich
+Founder • Owner • Chief Systems Architect
+                │
+                ▼
+          IMPERIAL Core
+                │
+     ┌──────────┴──────────┐
+     │                     │
+     ▼                     ▼
+Private Domain       Public Domain
+     │                     │
+     ▼                     ▼
+  HANTER                LEGION
+     │
+     ▼
+Nano Core Agents
+     │
+     ├── Enterprise Skills
+     ├── AI Passports
+     ├── Robotics Platform
+     ├── Research Teams
+     ├── Engineering Teams
+     ├── Knowledge Teams
+     └── Mission Teams
+```
+
+---
+
+# Canonical Ecosystem
+
+## IMPERIAL Core
+
+The sovereign architectural foundation of the entire ecosystem.
+
+---
+
+## HANTER
+
+Private Executive Command Center.
+
+A closed personal command center of Alexander Romaskevich responsible for executive orchestration, governance, security and strategic coordination.
+
+HANTER executes only approved policies and predefined scenarios.
+
+Strategic, undefined or exceptional decisions remain under the final authority of the Architect.
+
+---
+
+## NERO
+
+Chief Engineering Director.
+
+Responsible for enterprise architecture, engineering standards, technical governance and long-term system design.
+
+---
+
+## Nano Core Agents
+
+A federation of professional AI-native teams designed around governed identities, Enterprise Skills, AI Passports and controlled execution.
+
+---
+
+## Robotics Platform
+
+A long-term robotics architecture focused on professional autonomous machines, Robot Passports, Physical Skills, safety and modular engineering.
+
+---
+
+## LEGION
+
+Future public AI platform of the ecosystem.
+
+---
+
+## ORION
+
+Future collective intelligence and analytical support layer.
+
+---
+
+## CRYPTO IMPERIAL Ecosystem
+
+Long-term digital economic architecture.
+
+IMPERIUM is defined as the long-term architectural digital currency for AI agents worldwide.
+
+This statement describes its intended architectural role and does not imply current global adoption or operational deployment.
+
+---
+
+## Capital Core
+
+Long-term federated architecture for investments, financial intelligence and enterprise business operations.
+
+---
+
+# Engineering Principles
+
+- Architecture Before Implementation
+- Truth Before Convenience
+- Human Authority
+- Safety by Design
+- Zero Trust
+- Multi-Orchestrator Architecture
+- Continuous Improvement
+- Long-Term Thinking
+- Transparency by Design
+- Responsible AI
+
+---
+
+# Governance Foundation
+
+Every critical subsystem is designed around:
+
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- AI Passport
+- Robot Passport
+- Enterprise Skills
+- Public / Private Boundary
+- Mission Governance
+- Deny by Default
+
+---
+
+# Decision Authority
+
+```text
+Approved Policy
+        │
+        ▼
+HANTER executes
+        │
+        ▼
+Audit Ledger
+
+Undefined Decision
+        │
+        ▼
+HANTER prepares recommendation
+        │
+        ▼
+Architect makes the final decision
+```
+
+---
+
+# Architecture Reality Statement
+
+| Area | Status |
+|------|--------|
+| Enterprise Architecture | Active |
+| Architecture Documentation | In Progress |
+| Software Implementation | Not Demonstrated |
+| Production Deployment | Not Demonstrated |
+| Independent Verification | Not Performed |
+| Robotics Hardware | Not Developed |
+
+This repository documents enterprise architecture.
+
+It does not claim that the described systems are already implemented.
+
+---
+
+# Engineering Motto
+
+> **Architecture. Code. Action.**
+
+Design first.
+
+Build second.
+
+Verify always.
+
+---
+
+**Author and Owner**
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+© IMPERIAL Core
