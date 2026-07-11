@@ -1607,3 +1607,132 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# Architectural Commitments
+
+HANTER is developed under a set of long-term engineering commitments.
+
+These commitments define how the architecture should evolve over time.
+
+---
+
+## Commitment to Truth
+
+Architectural concepts, implementation and verification are treated as separate engineering stages.
+
+This repository does not intentionally present architectural concepts as completed products.
+
+---
+
+## Commitment to Security
+
+Security is considered an architectural requirement rather than an implementation detail.
+
+Every major subsystem should be designed with:
+
+- Zero Trust
+- Least Privilege
+- Explicit Authorization
+- Auditability
+- Traceability
+- Defense in Depth
+
+---
+
+## Commitment to Governance
+
+Every critical capability should operate within defined governance boundaries.
+
+Authority, responsibility and accountability are designed before automation.
+
+---
+
+## Commitment to Engineering Quality
+
+Engineering quality is expected to improve continuously.
+
+Every architectural revision should increase:
+
+- clarity;
+- consistency;
+- maintainability;
+- resilience;
+- scalability.
+
+---
+
+## Commitment to Documentation
+
+Architecture is considered part of the product.
+
+Documentation should remain:
+
+- understandable;
+- reviewable;
+- maintainable;
+- versioned;
+- connected.
+
+---
+
+## Commitment to Knowledge
+
+Engineering knowledge should never depend on a single individual.
+
+Knowledge should be preserved through structured architecture documentation.
+
+---
+
+## Commitment to Responsible AI
+
+Artificial Intelligence should support people.
+
+Executive authority remains under human governance.
+
+HANTER is designed to assist decision making, not replace constitutional responsibility.
+
+---
+
+## Commitment to Long-Term Architecture
+
+Every architectural decision should consider:
+
+- future maintainability;
+- future scalability;
+- future interoperability;
+- future security.
+
+Architecture should remain valuable even when technologies evolve.
+
+---
+
+# Repository Integrity
+
+The purpose of this repository is to document enterprise architecture.
+
+Future implementation should remain consistent with documented architectural principles or explicitly document justified deviations.
+
+---
+
+# Engineering Commitment
+
+The long-term objective is not only to develop intelligent systems.
+
+The objective is to establish an engineering culture where architecture, security, governance and responsibility evolve together.
+
+---
+
+> **"Architecture is a commitment to future engineering."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
