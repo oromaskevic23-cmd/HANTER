@@ -1465,3 +1465,145 @@ Every document should make the architecture stronger than it was yesterday.
 ---
 
 > **Architecture. Code. Action.**
+---
+
+# Architecture Thinking
+
+HANTER is not designed as a collection of independent features.
+
+It is designed as an integrated enterprise architecture where every component has a defined responsibility, trust boundary and lifecycle.
+
+The architecture grows by connecting systems rather than accumulating isolated functionality.
+
+---
+
+# Architectural Layers
+
+```text
+Architect
+        │
+        ▼
+Constitution Layer
+        │
+        ▼
+Governance Layer
+        │
+        ▼
+Executive Layer
+        │
+        ▼
+Orchestration Layer
+        │
+        ▼
+Intelligence Layer
+        │
+        ▼
+Knowledge Layer
+        │
+        ▼
+Execution Layer
+        │
+        ▼
+Audit Layer
+```
+
+Every layer has a clearly defined purpose.
+
+No layer should bypass another without explicit architectural justification.
+
+---
+
+# Design Principles
+
+The architecture follows several permanent principles.
+
+## Separation of Responsibility
+
+Every component has one clearly defined responsibility.
+
+Complexity is reduced by architectural separation.
+
+---
+
+## Explicit Trust
+
+Trust must be earned and continuously verified.
+
+No component receives implicit trust.
+
+---
+
+## Explicit Authority
+
+Authority is granted intentionally.
+
+Identity alone never provides execution rights.
+
+---
+
+## Explainable Decisions
+
+Architectural decisions should remain understandable.
+
+Future engineers should be able to understand:
+
+- why the decision exists;
+- which problem it solves;
+- which alternatives were considered;
+- what assumptions were made.
+
+---
+
+## Predictable Systems
+
+Predictability is preferred over unnecessary complexity.
+
+Stable architecture enables long-term evolution.
+
+---
+
+# Engineering Responsibility
+
+Architecture is considered a long-term commitment.
+
+Every document should improve:
+
+- clarity;
+- consistency;
+- maintainability;
+- security;
+- scalability.
+
+---
+
+# Repository Philosophy
+
+This repository is intended to become a continuously evolving enterprise architecture knowledge base.
+
+Implementation may change.
+
+Technologies may change.
+
+Architecture should preserve continuity.
+
+---
+
+# Long-Term Goal
+
+The objective is to establish an engineering foundation capable of supporting future intelligent systems for decades while maintaining transparency, governance and responsible architectural evolution.
+
+---
+
+> **"Architecture is the language through which engineering communicates with the future."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
