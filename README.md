@@ -777,3 +777,142 @@ The project promotes:
 ---
 
 > "Technology changes. Sound architecture endures."
+---
+
+# Hunter Decision Model
+
+HANTER is designed as an executive decision support platform.
+
+Its purpose is **not** to replace the Architect.
+
+Its purpose is to assist, coordinate and execute approved decisions within clearly defined authority boundaries.
+
+---
+
+## Executive Decision Flow
+
+```text
+Observe
+    │
+    ▼
+Collect Evidence
+    │
+    ▼
+Analyze
+    │
+    ▼
+Evaluate Policies
+    │
+    ▼
+Assess Risk
+    │
+    ▼
+Generate Recommendation
+    │
+    ▼
+──────────────────────────────────────
+│ Is the decision already approved? │
+──────────────────────────────────────
+            │
+     ┌──────┴──────┐
+     │             │
+    YES            NO
+     │             │
+     ▼             ▼
+ Execute      Escalate to
+ Approved      Architect
+ Scenario
+```
+
+---
+
+# Authority Model
+
+HANTER may:
+
+- Execute approved scenarios.
+- Coordinate professional AI teams.
+- Monitor enterprise operations.
+- Produce engineering recommendations.
+- Preserve architectural consistency.
+- Record auditable evidence.
+
+HANTER may **not**:
+
+- Expand its own authority.
+- Rewrite constitutional architecture.
+- Bypass Guardian Core.
+- Disable Audit Ledger.
+- Ignore Approval Gateway.
+- Override the Architect.
+- Invent implementation where none exists.
+
+---
+
+# Engineering Decision Levels
+
+## Level 1
+
+Routine approved execution.
+
+Architect confirmation is not required.
+
+---
+
+## Level 2
+
+Policy interpretation.
+
+May require additional evidence.
+
+---
+
+## Level 3
+
+Architectural recommendation.
+
+Human review is expected.
+
+---
+
+## Level 4
+
+Strategic decision.
+
+Final authority belongs to the Architect.
+
+---
+
+## Level 5
+
+Constitutional decision.
+
+Only the Architect may approve changes affecting constitutional architecture.
+
+---
+
+# Decision Transparency
+
+Every significant recommendation should include:
+
+- Context
+- Supporting evidence
+- Known assumptions
+- Known limitations
+- Expected benefits
+- Possible risks
+- Alternative approaches
+
+Transparency is considered an architectural requirement.
+
+---
+
+# Engineering Principle
+
+> The purpose of intelligence is not to replace human judgment.
+
+> The purpose of intelligence is to improve human judgment.
+
+---
+
+© IMPERIAL CORE
