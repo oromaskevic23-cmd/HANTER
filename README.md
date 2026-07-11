@@ -4846,3 +4846,241 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Robot Passport
+
+**Document ID:** ID-002  
+**System:** HANTER Robotics  
+**System Role:** Robot Identity Architecture  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+The Robot Passport defines the permanent digital identity of every robot operating within the IMPERIAL CORE Robotics Platform.
+
+A Robot Passport represents the identity, configuration, operational capabilities and governance of a physical robotic system.
+
+This document specifies architectural intent only.
+
+---
+
+# Architectural Objectives
+
+The Robot Passport is designed to:
+
+- establish a unique robot identity;
+- identify hardware configuration;
+- identify approved software configuration;
+- define operational capabilities;
+- support fleet management;
+- enable secure robotics governance;
+- preserve lifecycle history.
+
+---
+
+# Core Principles
+
+Every Robot Passport follows:
+
+- One Physical Identity
+- One Hardware Profile
+- One Governance Record
+- Continuous Verification
+- Full Traceability
+- Human Safety First
+
+---
+
+# Robot Identity
+
+Each Robot Passport contains:
+
+```text
+Robot ID
+Robot Name
+Model
+Generation
+Serial Number
+Organization
+Fleet Assignment
+Operational Status
+Passport Version
+Passport Signature
+```
+
+---
+
+# Hardware Profile
+
+The passport records:
+
+- chassis type;
+- actuator configuration;
+- sensor package;
+- compute platform;
+- power system;
+- communication modules;
+- hardware revision.
+
+---
+
+# Software Profile
+
+The passport references:
+
+- approved firmware;
+- runtime version;
+- operating environment;
+- security profile;
+- Guardian compatibility;
+- approved robotics modules.
+
+---
+
+# Operational Profile
+
+The passport defines:
+
+- robot category;
+- approved environments;
+- operational limits;
+- maximum autonomy level;
+- approved Physical Skills;
+- safety restrictions.
+
+---
+
+# Safety Profile
+
+The passport records:
+
+- emergency stop capability;
+- safety certification;
+- human interaction limits;
+- restricted behaviors;
+- maintenance requirements.
+
+Safety policies are expected to evolve independently from hardware.
+
+---
+
+# Fleet Assignment
+
+Each robot belongs to an approved fleet.
+
+Fleet information includes:
+
+- fleet identifier;
+- responsible organization;
+- operational region;
+- mission class;
+- supervising orchestrator.
+
+---
+
+# Lifecycle
+
+Every Robot Passport follows:
+
+```text
+Manufacturing
+      │
+      ▼
+Registration
+      │
+      ▼
+Verification
+      │
+      ▼
+Deployment
+      │
+      ▼
+Operational Service
+      │
+      ▼
+Maintenance
+      │
+      ▼
+Upgrade
+      │
+      ▼
+Retirement
+```
+
+---
+
+# Integration
+
+Robot Passport integrates with:
+
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Executive Credential Authority
+- Physical Skills
+- Fleet Federation
+- Robotics Platform
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Robot identity model defined.
+- Hardware profile defined.
+- Software profile defined.
+- Fleet model defined.
+- Safety profile defined.
+- Lifecycle defined.
+
+## Current Reality
+
+- Robot Passport service not implemented.
+- Fleet management not implemented.
+- Hardware verification not implemented.
+- Robotics platform not implemented.
+- Production validation not performed.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-ID002-001
+
+**Event:** Architecture Document Published
+
+Robot Passport has been defined as the permanent identity architecture for robotics systems.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Every trusted robot begins with a trusted identity."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
