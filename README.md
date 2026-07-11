@@ -5587,3 +5587,268 @@ Founder • Owner •Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Skill Registry
+
+**Document ID:** SK-002  
+**System:** HANTER  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+The Skill Registry is the authoritative catalog of Enterprise Skills available within the HANTER ecosystem.
+
+Its purpose is to provide controlled discovery, governance, versioning, trust evaluation and lifecycle management for professional capabilities.
+
+The Skill Registry is an architectural service.
+
+It is not simply a software repository.
+
+This document specifies architectural intent only.
+
+---
+
+# Architectural Objectives
+
+The Skill Registry is designed to:
+
+- register Enterprise Skills;
+- maintain version history;
+- preserve provenance;
+- validate trust;
+- support capability discovery;
+- enable controlled publication;
+- simplify orchestration;
+- provide enterprise-scale routing.
+
+---
+
+# Engineering Principles
+
+Every registered Skill follows:
+
+- One Identity
+- One Owner
+- One Lifecycle
+- Explicit Governance
+- Continuous Verification
+- Complete Traceability
+
+---
+
+# Registry Record
+
+Every registered Skill contains:
+
+```text
+Skill ID
+Skill Name
+Version
+Publisher
+Owner
+Category
+Trust Tier
+Lifecycle Status
+Signature
+Created
+Last Updated
+```
+
+---
+
+# Discovery
+
+Future implementations should support discovery by:
+
+- Skill Name
+- Category
+- Tags
+- Enterprise Domain
+- Trust Tier
+- Version
+- Publisher
+- Compatibility
+- Required Permissions
+- Runtime Environment
+
+---
+
+# Version Management
+
+The registry maintains:
+
+- current version;
+- supported versions;
+- deprecated versions;
+- retirement schedule;
+- compatibility information;
+- migration guidance.
+
+No version should disappear without historical traceability.
+
+---
+
+# Trust Verification
+
+Future implementations may validate:
+
+- digital signature;
+- publisher identity;
+- manifest integrity;
+- dependency integrity;
+- verification evidence;
+- review status.
+
+Trust verification is separate from runtime authorization.
+
+---
+
+# Publication Workflow
+
+Every Skill follows:
+
+```text
+Proposal
+      │
+      ▼
+Architecture Review
+      │
+      ▼
+Implementation
+      │
+      ▼
+Verification
+      │
+      ▼
+Registry Publication
+      │
+      ▼
+Operational Distribution
+      │
+      ▼
+Continuous Review
+      │
+      ▼
+Retirement
+```
+
+---
+
+# Routing
+
+The registry should support routing based on:
+
+- professional role;
+- mission requirements;
+- Trust Tier;
+- policy restrictions;
+- environment compatibility;
+- orchestrator domain.
+
+---
+
+# Governance
+
+Every Skill remains governed by:
+
+- Enterprise Skills policy;
+- Guardian Core;
+- Approval Gateway;
+- Audit Ledger;
+- Identity Lifecycle.
+
+No Skill should bypass governance.
+
+---
+
+# Security
+
+Future implementations should support:
+
+- signed manifests;
+- integrity validation;
+- controlled publication;
+- secure distribution;
+- version pinning;
+- revocation.
+
+Technology selection has not yet been finalized.
+
+---
+
+# Integration
+
+Skill Registry integrates with:
+
+- Enterprise Skills
+- AI Passport
+- Robot Passport
+- Identity Lifecycle
+- Executive Credential Authority
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Multi-Orchestrator Architecture
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Registry model defined.
+- Discovery model defined.
+- Version management defined.
+- Trust verification defined.
+- Governance defined.
+
+## Current Reality
+
+- Registry service not implemented.
+- Search engine not implemented.
+- Manifest verification not implemented.
+- Digital signing not implemented.
+- Runtime routing not implemented.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-SK002-001
+
+**Event:** Architecture Document Published
+
+Skill Registry has been defined as the authoritative enterprise catalog for governed professional capabilities.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"A professional capability becomes trustworthy when it is governed."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
