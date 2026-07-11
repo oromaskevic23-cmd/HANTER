@@ -5852,3 +5852,270 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Skill Lifecycle
+
+**Document ID:** SK-003  
+**System:** HANTER  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Skill Lifecycle defines the complete engineering lifecycle of Enterprise Skills within the HANTER ecosystem.
+
+Its purpose is to ensure that every professional capability evolves through a governed, auditable and repeatable process.
+
+This document specifies architectural intent only.
+
+---
+
+# Architectural Objectives
+
+The Skill Lifecycle is designed to:
+
+- govern capability evolution;
+- preserve engineering quality;
+- ensure safe publication;
+- support continuous improvement;
+- maintain historical traceability;
+- simplify enterprise maintenance.
+
+---
+
+# Engineering Principles
+
+Every Enterprise Skill follows:
+
+- Controlled Evolution
+- Architecture Before Implementation
+- Independent Verification
+- Explicit Governance
+- Version Transparency
+- Complete Traceability
+
+---
+
+# Lifecycle Model
+
+```text
+Idea
+   │
+   ▼
+Architecture Proposal
+   │
+   ▼
+Architecture Review
+   │
+   ▼
+Implementation
+   │
+   ▼
+Verification
+   │
+   ▼
+Registry Publication
+   │
+   ▼
+Operational Deployment
+   │
+   ▼
+Continuous Monitoring
+   │
+   ▼
+Revision
+   │
+   ▼
+Retirement
+   │
+   ▼
+Archive
+```
+
+---
+
+# Proposal Stage
+
+Every new Skill begins with:
+
+- purpose;
+- business value;
+- architectural justification;
+- security considerations;
+- expected users.
+
+---
+
+# Architecture Review
+
+The review evaluates:
+
+- engineering quality;
+- integration;
+- dependencies;
+- governance;
+- security;
+- maintainability.
+
+---
+
+# Implementation
+
+Implementation should follow the approved architecture.
+
+Major deviations should be documented and reviewed.
+
+---
+
+# Verification
+
+Future verification may include:
+
+- functional testing;
+- security review;
+- dependency validation;
+- performance evaluation;
+- compatibility review.
+
+Verification remains separate from implementation.
+
+---
+
+# Publication
+
+Publication requires:
+
+- approved version;
+- completed metadata;
+- verified manifest;
+- assigned Trust Tier;
+- registry registration.
+
+---
+
+# Operational Monitoring
+
+Future implementations should monitor:
+
+- usage;
+- reliability;
+- failures;
+- compatibility;
+- security findings.
+
+---
+
+# Revision
+
+A Skill may be revised because of:
+
+- engineering improvements;
+- security updates;
+- compatibility changes;
+- policy changes;
+- architectural evolution.
+
+Revision creates a new version.
+
+Historical versions remain preserved.
+
+---
+
+# Retirement
+
+A Skill may be retired when:
+
+- replaced;
+- deprecated;
+- unsupported;
+- no longer secure;
+- architecturally obsolete.
+
+Retirement does not remove engineering history.
+
+---
+
+# Archive
+
+Archived Skills preserve:
+
+- manifest;
+- versions;
+- audit history;
+- approvals;
+- engineering decisions.
+
+---
+
+# Integration
+
+Skill Lifecycle integrates with:
+
+- Skill Registry
+- Enterprise Skills
+- AI Passport
+- Robot Passport
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Identity Lifecycle
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Lifecycle defined.
+- Engineering workflow defined.
+- Publication model defined.
+- Retirement model defined.
+
+## Current Reality
+
+- Lifecycle automation not implemented.
+- Monitoring not implemented.
+- Verification pipeline not implemented.
+- Production validation not performed.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-SK003-001
+
+**Event:** Architecture Document Published
+
+Skill Lifecycle has been defined as the governed engineering lifecycle for Enterprise Skills.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Great capabilities are not created once. They are engineered throughout their entire lifecycle."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
