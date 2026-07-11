@@ -479,3 +479,175 @@ The objective is building a sustainable architecture capable of evolving over de
 ---
 
 > **"Strong systems are built on strong architecture."**
+---
+
+# Architecture Roadmap
+
+HANTER is designed as a long-term enterprise architecture.
+
+The roadmap below represents the architectural direction of the project.
+
+It does **not** imply that every capability has already been implemented.
+
+---
+
+## Phase I — Foundation
+
+✅ Architecture Constitution
+
+✅ Hunter Protocol
+
+✅ Executive Governance
+
+✅ Zero Trust Architecture
+
+✅ Guardian Core
+
+✅ Approval Gateway
+
+✅ Audit Ledger
+
+✅ Multi-Orchestrator Architecture
+
+✅ AI Passport
+
+✅ Enterprise Skills
+
+Status: **Architecture**
+
+---
+
+## Phase II — Executive Operating System
+
+- Executive Runtime
+- Executive Mission Management
+- Decision Intelligence
+- Executive Memory
+- Policy Engine
+- Executive Workspace
+- Executive Analytics
+- Executive Knowledge
+
+Status: **Architecture In Progress**
+
+---
+
+## Phase III — Nano Core Agents
+
+- Professional AI Teams
+- Enterprise Skills Runtime
+- AI Passport Federation
+- Knowledge Teams
+- Engineering Teams
+- Research Teams
+- Quality Assurance Teams
+- Robotics Teams
+
+Status: **Architecture**
+
+---
+
+## Phase IV — Robotics Platform
+
+- Robot Passport
+- Physical Skills
+- Universal Robotics Platform
+- Robotics Intelligence Layer
+- Robotics Factory Architecture
+- Robotics Certification
+- Robotics Digital Twin
+- Fleet Federation
+- Executive Robotics
+- Industrial Robotics
+- Medical Robotics
+- Logistics Robotics
+- Research Robotics
+- Agricultural Robotics
+- Emergency Robotics
+
+Status: **Architecture**
+
+---
+
+## Phase V — Knowledge Platform
+
+Current Knowledge Layer
+
+- Obsidian
+
+Future Direction
+
+- IMPERIAL Knowledge Core (IKC)
+
+Status: **Long-Term Vision**
+
+---
+
+## Phase VI — Public Ecosystem
+
+- LEGION
+- ORION
+
+Status: **Long-Term Vision**
+
+---
+
+## Phase VII — Enterprise Platform
+
+- Capital Core
+- CRYPTO IMPERIAL Ecosystem
+
+Status: **Long-Term Vision**
+
+---
+
+# Engineering Lifecycle
+
+Every major capability follows the same engineering process.
+
+```text
+Research
+      │
+      ▼
+Architecture
+      │
+      ▼
+Engineering Review
+      │
+      ▼
+Implementation
+      │
+      ▼
+Verification
+      │
+      ▼
+Production
+      │
+      ▼
+Continuous Improvement
+```
+
+No capability should skip verification before production.
+
+---
+
+# Repository Transparency
+
+This repository intentionally distinguishes between:
+
+- Architecture
+- Implementation
+- Verification
+- Production
+
+The existence of an architectural document does **not** indicate that the corresponding capability has already been implemented.
+
+---
+
+# Long-Term Mission
+
+The mission of HANTER is to provide a secure, governed and scalable executive command center for the IMPERIAL Core ecosystem while maintaining engineering transparency, architectural integrity and long-term sustainability.
+
+---
+
+> **Architecture today. Engineering tomorrow. Reliability for decades.**
