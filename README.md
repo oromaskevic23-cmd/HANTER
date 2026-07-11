@@ -2032,3 +2032,156 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+---
+
+# Immutable Engineering Laws
+
+The following engineering laws define the permanent architectural foundation of HANTER.
+
+These principles are intended to remain stable throughout the evolution of the project.
+
+---
+
+## LAW-001
+
+### Architecture Before Implementation
+
+Critical systems are designed before implementation begins.
+
+Architecture provides direction.
+
+Implementation follows architecture.
+
+---
+
+## LAW-002
+
+### Truth Before Convenience
+
+Architecture, implementation and verification are documented independently.
+
+No architectural capability should be represented as implemented without evidence.
+
+---
+
+## LAW-003
+
+### Human Final Authority
+
+Strategic authority remains with the Architect.
+
+HANTER assists, coordinates and executes only within approved governance boundaries.
+
+---
+
+## LAW-004
+
+### Zero Trust
+
+Every identity, request and action should be authenticated, authorized and auditable.
+
+Trust is continuously verified.
+
+---
+
+## LAW-005
+
+### Explicit Responsibility
+
+Every component owns clearly defined responsibilities.
+
+No component should perform undefined executive functions.
+
+---
+
+## LAW-006
+
+### Security by Design
+
+Security is an architectural requirement.
+
+It is never considered an optional enhancement.
+
+---
+
+## LAW-007
+
+### Governance by Design
+
+Every critical capability operates within defined governance boundaries.
+
+Authority, responsibility and accountability are established before automation.
+
+---
+
+## LAW-008
+
+### Audit by Default
+
+Every significant executive action should leave verifiable engineering evidence.
+
+Transparency supports trust.
+
+---
+
+## LAW-009
+
+### Continuous Improvement
+
+Architecture is expected to evolve through engineering review.
+
+Uncontrolled evolution is discouraged.
+
+---
+
+## LAW-010
+
+### Knowledge Preservation
+
+Engineering knowledge should remain available for future generations.
+
+Architecture is treated as institutional memory.
+
+---
+
+## LAW-011
+
+### Responsible Artificial Intelligence
+
+Artificial intelligence exists to support human decision making.
+
+It does not replace constitutional responsibility.
+
+---
+
+## LAW-012
+
+### Long-Term Engineering
+
+Architectural decisions should remain valuable beyond individual technologies.
+
+The project is designed with long-term sustainability in mind.
+
+---
+
+# Engineering Promise
+
+These engineering laws establish the foundation for every future architectural document contained within this repository.
+
+Every future capability should strengthen these principles rather than weaken them.
+
+---
+
+> **"Technology evolves. Principles endure."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
