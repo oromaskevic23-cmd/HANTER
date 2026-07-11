@@ -4060,3 +4060,257 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Zero Trust Architecture
+
+**Document ID:** SEC-004  
+**System:** HANTER  
+**System Role:** Closed Personal Command Center of Alexander Romaskevich  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Zero Trust Architecture defines the fundamental security philosophy of HANTER.
+
+The architecture assumes that no identity, device, process, service or network should be trusted implicitly.
+
+Every request must be continuously verified before execution.
+
+This document specifies architectural intent only.
+
+---
+
+# Zero Trust Principles
+
+HANTER adopts the following permanent principles:
+
+- Never Trust Implicitly
+- Always Verify
+- Least Privilege
+- Explicit Authorization
+- Continuous Validation
+- Assume Breach
+- Minimize Attack Surface
+- Continuous Monitoring
+
+---
+
+# Architectural Model
+
+```text
+Identity
+      │
+      ▼
+Authentication
+      │
+      ▼
+Authorization
+      │
+      ▼
+Policy Evaluation
+      │
+      ▼
+Guardian Core
+      │
+      ▼
+Approval Gateway
+      │
+      ▼
+Controlled Execution
+      │
+      ▼
+Audit Ledger
+```
+
+No stage automatically implies the next.
+
+---
+
+# Protected Domains
+
+Zero Trust applies to:
+
+- Architect Workspace
+- HANTER Runtime
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Nano Core Agents
+- Enterprise Skills
+- Robot Platform
+- External Integrations
+- Knowledge Layer
+
+---
+
+# Identity Verification
+
+Every identity must be verified before accessing protected resources.
+
+Supported architectural identity classes include:
+
+- Architect
+- HANTER
+- Guardian Core
+- Domain Orchestrators
+- Nano Core Agents
+- Enterprise Skills
+- Robots
+- External Services
+
+Identity verification alone does not grant authority.
+
+---
+
+# Device Trust
+
+Future implementations should validate:
+
+- Registered device
+- Device integrity
+- Trusted hardware
+- Session binding
+- Secure storage
+- Cryptographic identity
+
+The implementation technology has not yet been selected.
+
+---
+
+# Network Trust
+
+No internal network is automatically trusted.
+
+Every service request should be authenticated and authorized regardless of network location.
+
+---
+
+# Runtime Trust
+
+Every runtime operation should be evaluated using:
+
+- identity;
+- policy;
+- mission;
+- approval state;
+- resource scope;
+- current risk;
+- Guardian Core assessment.
+
+---
+
+# Least Privilege
+
+Every identity receives only the permissions required for the approved mission.
+
+Privileges should:
+
+- be temporary;
+- be scoped;
+- expire automatically;
+- be reviewable;
+- be revocable.
+
+---
+
+# Continuous Verification
+
+Trust is not permanent.
+
+Future implementations should continuously evaluate:
+
+- session integrity;
+- credential validity;
+- device status;
+- policy changes;
+- mission state;
+- Guardian Core findings.
+
+---
+
+# Integration
+
+Zero Trust Architecture integrates with:
+
+- Executive Credential Authority
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- AI Passport
+- Robot Passport
+- Enterprise Skills
+
+---
+
+# Failure Policy
+
+When trust cannot be established:
+
+- deny execution;
+- preserve evidence;
+- notify Guardian Core;
+- require re-authentication where appropriate.
+
+Fail securely by default.
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+- Zero Trust model defined.
+- Identity validation defined.
+- Runtime verification defined.
+- Device trust model defined.
+- Integration model defined.
+
+## Current Reality
+
+- Zero Trust runtime not implemented.
+- Device attestation not implemented.
+- Continuous verification not implemented.
+- Security validation not performed.
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-SEC004-001
+
+**Event:** Architecture Document Published
+
+Zero Trust Architecture has been defined as the permanent security philosophy of HANTER.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Trust is earned continuously, never assumed."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
