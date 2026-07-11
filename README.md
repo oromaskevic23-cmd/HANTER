@@ -8302,3 +8302,251 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# H-1000 — HANTER System Architecture
+
+**Document ID:** H-1000  
+**Category:** Core Architecture  
+**System:** HANTER — Private Executive Command Center  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+This document defines the complete architectural structure of HANTER.
+
+It describes how all architectural domains cooperate while preserving security, governance, scalability and long-term maintainability.
+
+This document represents architectural intent only.
+
+---
+
+# Mission
+
+HANTER serves as the sovereign executive command center of the IMPERIAL CORE ecosystem.
+
+Its mission is to coordinate intelligent systems through governed execution, transparent engineering and human oversight.
+
+---
+
+# Architectural Vision
+
+The architecture is based on five permanent foundations.
+
+- Executive Foundation
+- Security Foundation
+- Identity Foundation
+- Enterprise Skills Foundation
+- Robotics Foundation
+
+These foundations evolve independently while remaining architecturally integrated.
+
+---
+
+# High-Level Architecture
+
+```text
+Architect
+        │
+        ▼
+HANTER Executive Layer
+        │
+ ┌──────┼────────────────────────────┐
+ ▼      ▼            ▼               ▼
+Security Identity   Skills       Robotics
+        │
+        ▼
+Mission Coordination
+        │
+        ▼
+Execution
+        │
+        ▼
+Audit Ledger
+```
+
+---
+
+# Executive Foundation
+
+Responsible for:
+
+- executive governance;
+- strategic coordination;
+- mission supervision;
+- engineering oversight;
+- architectural decisions.
+
+---
+
+# Security Foundation
+
+Responsible for:
+
+- Guardian Core;
+- Approval Gateway;
+- Audit Ledger;
+- Zero Trust;
+- Trust Boundaries.
+
+---
+
+# Identity Foundation
+
+Responsible for:
+
+- AI Passport;
+- Robot Passport;
+- Executive Identity;
+- Identity Lifecycle.
+
+---
+
+# Enterprise Skills Foundation
+
+Responsible for:
+
+- Enterprise Skills;
+- Skill Registry;
+- Skill Lifecycle;
+- capability governance.
+
+---
+
+# Robotics Foundation
+
+Responsible for:
+
+- Robotics Platform;
+- Physical Skills;
+- Robot Runtime;
+- Fleet Federation;
+- Robotics Factory.
+
+---
+
+# Engineering Principles
+
+Every architectural foundation follows:
+
+- Zero Trust
+- Explicit Governance
+- Human Final Authority
+- Continuous Audit
+- Independent Evolution
+- Architecture Before Implementation
+
+---
+
+# Integration Principles
+
+Every architectural domain integrates through governed interfaces.
+
+No domain should bypass:
+
+- Guardian Core;
+- Approval Gateway;
+- Audit Ledger;
+- Identity Governance.
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Approved |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+The complete architectural structure of HANTER has been defined.
+
+## Current Reality
+
+The architecture documents exist.
+
+Production implementation has not yet been completed.
+
+Independent verification has not yet been completed.
+
+---
+
+# Related Documents
+
+Executive Foundation
+
+- H-1620
+- H-1621
+
+Security Foundation
+
+- SEC-001
+- SEC-002
+- SEC-003
+- SEC-004
+- SEC-005
+
+Identity Foundation
+
+- ID-001
+- ID-002
+- ID-003
+
+Enterprise Skills Foundation
+
+- SK-001
+- SK-002
+- SK-003
+
+Robotics Foundation
+
+- ROB-001
+- ROB-002
+- ROB-003
+- ROB-004
+- ROB-005
+- ROB-006
+
+Governance
+
+- ADR-0001
+- ADR-0002
+- ADR-0003
+
+---
+
+# Engineering Journal
+
+**Record ID:** HP-JOURNAL-H1000-001
+
+**Event:** Core System Architecture Published
+
+The complete high-level architectural structure of HANTER has been documented.
+
+Architecture, implementation and verification remain separate engineering states.
+
+---
+
+> **"Architecture transforms complexity into governed systems."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
