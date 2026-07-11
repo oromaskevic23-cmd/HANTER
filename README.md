@@ -2513,3 +2513,57 @@ No document should imply completed implementation without supporting evidence.
 
 > Architecture is the foundation.
 > Engineering makes it real.
+docs/
+├── README.md
+├── architecture/
+│   ├── README.md
+│   ├── H-1620-Sovereign-Command-Workspace.md
+│   ├── H-1621-Executive-Credential-Authority.md
+│   ├── Executive-Identity-Trust-Architecture.md
+│   └── Multi-Orchestrator-Architecture.md
+│
+├── security/
+│   ├── Guardian-Core.md
+│   ├── Approval-Gateway.md
+│   ├── Audit-Ledger.md
+│   ├── Zero-Trust.md
+│   └── Trust-Boundaries.md
+│
+├── governance/
+│   ├── Architecture-Constitution.md
+│   ├── Engineering-Laws.md
+│   ├── Governance-Model.md
+│   └── Decision-Records/
+│
+├── protocols/
+│   ├── Hunter-Protocol.md
+│   ├── Mission-Lifecycle.md
+│   ├── Approval-Workflow.md
+│   └── Emergency-Protocol.md
+│
+├── robotics/
+│   ├── Robot-Passport.md
+│   ├── Robotics-Platform.md
+│   ├── Fleet-Orchestration.md
+│   └── Safety-Architecture.md
+│
+├── passports/
+│   ├── AI-Passport.md
+│   └── Identity-Lifecycle.md
+│
+├── skills/
+│   ├── Enterprise-Skills.md
+│   ├── Skill-Lifecycle.md
+│   └── Skill-Registry.md
+│
+├── runtime/
+│   ├── Executive-Runtime.md
+│   └── Workload-Identity.md
+│
+├── knowledge/
+│   ├── Obsidian-Architecture.md
+│   └── Future-IKC.md
+│
+└── operations/
+    ├── Operations-Model.md
+    └── Monitoring.md
