@@ -3127,3 +3127,125 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# HANTER Architecture Registry
+
+> Official Enterprise Architecture Document Registry
+
+---
+
+# Purpose
+
+The Architecture Registry is the official catalog of architectural documents maintained within the HANTER repository.
+
+Its purpose is to provide a single authoritative index of architecture specifications, their maturity and engineering status.
+
+---
+
+# Engineering Lifecycle
+
+Every document follows the same lifecycle.
+
+| Stage | Description |
+|---------|-------------|
+| Draft | Initial architecture proposal |
+| Approved | Approved by the Architect |
+| Implementation | Software implementation in progress |
+| Verification | Independently validated |
+| Production | Operational deployment |
+
+---
+
+# Executive Architecture
+
+| ID | Document | Status |
+|-----|----------|--------|
+| H-1620 | Sovereign Command Workspace | Approved |
+| H-1621 | Executive Credential Authority | Approved |
+| H-1622 | Executive Session Security | Planned |
+| H-1623 | Executive Policy Engine | Planned |
+| H-1624 | Executive Decision Engine | Planned |
+
+---
+
+# Security Architecture
+
+| ID | Document | Status |
+|-----|----------|--------|
+| SEC-001 | Guardian Core | Approved |
+| SEC-002 | Approval Gateway | Planned |
+| SEC-003 | Audit Ledger | Planned |
+| SEC-004 | Zero Trust Architecture | Planned |
+| SEC-005 | Trust Boundaries | Planned |
+
+---
+
+# Identity Architecture
+
+| ID | Document | Status |
+|-----|----------|--------|
+| ID-001 | AI Passport | Planned |
+| ID-002 | Robot Passport | Planned |
+| ID-003 | Identity Lifecycle | Planned |
+
+---
+
+# Enterprise Skills
+
+| ID | Document | Status |
+|-----|----------|--------|
+| SK-001 | Enterprise Skills | Planned |
+| SK-002 | Skill Registry | Planned |
+| SK-003 | Skill Lifecycle | Planned |
+
+---
+
+# Robotics Architecture
+
+| ID | Document | Status |
+|-----|----------|--------|
+| ROB-001 | Robotics Platform | Planned |
+| ROB-002 | Physical Skills | Planned |
+| ROB-003 | Fleet Federation | Planned |
+| ROB-004 | Robot Factory | Planned |
+
+---
+
+# Governance
+
+| ID | Document | Status |
+|-----|----------|--------|
+| GOV-001 | Architecture Constitution | Planned |
+| GOV-002 | Hunter Protocol | Planned |
+| GOV-003 | Engineering Constitution | Planned |
+
+---
+
+# Status Definitions
+
+Architecture documentation and implementation are intentionally separated.
+
+A document may be architecturally approved while software implementation has not yet begun.
+
+---
+
+# Repository Integrity
+
+This registry tracks architecture only.
+
+It should never be interpreted as evidence that all listed capabilities are already implemented.
+
+---
+
+> **"Architecture is managed. Engineering is measured."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
