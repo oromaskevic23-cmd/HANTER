@@ -2990,3 +2990,140 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# Guardian Core
+
+**Document ID:** SEC-001  
+**System:** HANTER  
+**Architecture Status:** Approved  
+**Implementation Status:** Not Started  
+**Verification Status:** Not Performed
+
+---
+
+# Purpose
+
+Guardian Core is the independent security authority responsible for protecting the constitutional integrity of HANTER.
+
+It continuously verifies that executive operations remain within approved architectural boundaries.
+
+Guardian Core is intentionally separated from executive orchestration.
+
+---
+
+# Mission
+
+Guardian Core exists to:
+
+- Protect the Architect
+- Protect HANTER
+- Protect Nano Core Agents
+- Protect Robotics
+- Protect Engineering Assets
+- Protect Constitutional Architecture
+
+---
+
+# Core Responsibilities
+
+Guardian Core continuously evaluates:
+
+- Identity integrity
+- Policy compliance
+- Credential validity
+- Mission authorization
+- Trust boundaries
+- Runtime behavior
+- Security anomalies
+- Architecture violations
+
+---
+
+# Security Principles
+
+Guardian Core follows:
+
+- Zero Trust
+- Least Privilege
+- Explicit Authorization
+- Continuous Verification
+- Immutable Audit
+- Defense in Depth
+
+---
+
+# Guardian Authority
+
+Guardian Core may:
+
+- Deny execution
+- Freeze sessions
+- Revoke credentials
+- Reduce permissions
+- Trigger emergency protection
+- Request Architect approval
+
+Guardian Core never replaces the Architect.
+
+---
+
+# Protected Assets
+
+Guardian Core protects:
+
+- Executive Workspace
+- Approval Gateway
+- Audit Ledger
+- AI Passports
+- Robot Passports
+- Enterprise Skills
+- Executive Credentials
+- Knowledge Base
+
+---
+
+# Integration
+
+Guardian Core integrates with:
+
+- Executive Credential Authority
+- Approval Gateway
+- Audit Ledger
+- Zero Trust Architecture
+- Multi-Orchestrator Architecture
+- Robot Security Layer
+
+---
+
+# Engineering Status
+
+| Area | Status |
+|--------|--------|
+| Architecture | ✅ Defined |
+| Implementation | ❌ Not Started |
+| Verification | ❌ Not Performed |
+
+---
+
+# Engineering Note
+
+This document specifies architectural intent only.
+
+No production Guardian Core implementation currently exists.
+
+---
+
+> **"Protection is strongest when it remains independent."**
+
+---
+
+**Author**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
