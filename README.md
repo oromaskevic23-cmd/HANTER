@@ -2567,3 +2567,136 @@ docs/
 └── operations/
     ├── Operations-Model.md
     └── Monitoring.md
+# Enterprise Architecture
+
+Welcome to the HANTER Enterprise Architecture.
+
+This directory contains the core architectural specifications of the IMPERIAL CORE ecosystem.
+
+Architecture documents describe the intended long-term design and must not be interpreted as implemented functionality unless explicitly stated.
+
+---
+
+# Architecture Principles
+
+The architecture follows four permanent engineering principles:
+
+- Architecture Before Implementation
+- Security by Design
+- Governance by Design
+- Truth Before Convenience
+
+---
+
+# Architecture Status Model
+
+Every document clearly identifies its engineering maturity.
+
+| Status | Meaning |
+|---------|---------|
+| Architecture | Long-term design specification |
+| Approved | Architect has approved the design |
+| Implementation | Software implementation status |
+| Verification | Independent validation status |
+| Production | Operational deployment status |
+
+Architecture is intentionally separated from implementation.
+
+---
+
+# Core Architecture
+
+## Executive Architecture
+
+- HANTER
+- Executive Workspace
+- Executive Runtime
+- Executive Identity
+- Executive Credential Authority
+
+---
+
+## Security Architecture
+
+- Zero Trust
+- Guardian Core
+- Approval Gateway
+- Audit Ledger
+- Trust Boundaries
+
+---
+
+## Intelligence Architecture
+
+- Nano Core Agents
+- AI Passport
+- Enterprise Skills
+- Multi-Orchestrator Architecture
+
+---
+
+## Robotics Architecture
+
+- Robot Passport
+- Robotics Platform
+- Fleet Federation
+- Physical Skills
+- Safety Architecture
+
+---
+
+## Knowledge Architecture
+
+- Obsidian Knowledge Layer
+- Future IMPERIAL Knowledge Core
+- Engineering Documentation
+
+---
+
+## Governance Architecture
+
+- Architecture Constitution
+- Hunter Protocol
+- Decision Records
+- Engineering Laws
+
+---
+
+# Engineering Standard
+
+Every architecture document should include:
+
+- Purpose
+- Scope
+- Responsibilities
+- Architecture
+- Trust Boundaries
+- Integration
+- Risks
+- Architecture Status
+- Implementation Status
+- Verification Status
+
+---
+
+# Repository Philosophy
+
+Architecture exists to provide engineering clarity before software implementation.
+
+Long-term maintainability begins with disciplined architecture.
+
+---
+
+> **"Architecture is the blueprint of responsible engineering."**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
