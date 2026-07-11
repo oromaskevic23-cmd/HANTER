@@ -2387,3 +2387,129 @@ Founder • Owner • Chief Systems Architect
 Chief Engineering Director
 
 © IMPERIAL CORE
+# HANTER Documentation
+
+Welcome to the official architecture documentation of HANTER.
+
+This documentation is organized as an enterprise architecture knowledge base.
+
+The objective is to document architecture before implementation while maintaining transparency regarding implementation status and engineering maturity.
+
+---
+
+# Documentation Structure
+
+## Architecture
+
+Core enterprise architecture.
+
+```
+docs/architecture/
+```
+
+---
+
+## Security
+
+Security architecture.
+
+```
+docs/security/
+```
+
+---
+
+## Governance
+
+Executive governance.
+
+```
+docs/governance/
+```
+
+---
+
+## Protocols
+
+Hunter Protocol and executive workflows.
+
+```
+docs/protocols/
+```
+
+---
+
+## Runtime
+
+Executive runtime architecture.
+
+```
+docs/runtime/
+```
+
+---
+
+## Robotics
+
+Robotics architecture.
+
+```
+docs/robotics/
+```
+
+---
+
+## Knowledge
+
+Knowledge architecture.
+
+```
+docs/knowledge/
+```
+
+---
+
+## AI Passports
+
+Professional AI identities.
+
+```
+docs/passports/
+```
+
+---
+
+## Enterprise Skills
+
+Professional capability architecture.
+
+```
+docs/skills/
+```
+
+---
+
+## Operations
+
+Operational architecture.
+
+```
+docs/operations/
+```
+
+---
+
+# Engineering Rule
+
+Every document must clearly distinguish between:
+
+- Architecture
+- Implementation
+- Verification
+
+No document should imply completed implementation without supporting evidence.
+
+---
+
+> Architecture is the foundation.
+> Engineering makes it real.
