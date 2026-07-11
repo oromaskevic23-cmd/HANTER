@@ -7592,3 +7592,160 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# ADR-0001 — Multi-Orchestrator Architecture
+
+**Document ID:** ADR-0001  
+**Category:** Architecture Decision Record  
+**Status:** Accepted  
+**Decision Date:** 2026  
+**System:** HANTER
+
+---
+
+# Decision
+
+The IMPERIAL CORE ecosystem adopts a federated Multi-Orchestrator Architecture instead of a single global orchestrator.
+
+This document records the architectural decision and its rationale.
+
+---
+
+# Context
+
+As the ecosystem grows to support multiple organizations, business domains, countries and robotic fleets, a single orchestration point would become:
+
+- difficult to scale;
+- difficult to govern;
+- a concentration of operational risk;
+- a potential single point of failure.
+
+The architecture therefore requires a federated model.
+
+---
+
+# Decision Summary
+
+HANTER remains the executive command center.
+
+Below HANTER, multiple orchestrators may exist.
+
+Each orchestrator governs only its approved domain.
+
+No orchestrator possesses unrestricted global authority.
+
+---
+
+# Expected Benefits
+
+The decision is intended to improve:
+
+- scalability;
+- resilience;
+- operational independence;
+- organizational flexibility;
+- fault isolation;
+- engineering maintainability.
+
+---
+
+# Trade-Offs
+
+The architecture becomes:
+
+- more distributed;
+- more policy-driven;
+- more dependent on identity and governance.
+
+This additional complexity is considered acceptable because it improves long-term scalability.
+
+---
+
+# Alternatives Considered
+
+## Alternative A
+
+Single Global Orchestrator
+
+Advantages:
+
+- simpler architecture;
+- easier initial implementation.
+
+Disadvantages:
+
+- scalability limitations;
+- larger failure domain;
+- governance concentration.
+
+Decision:
+
+Not selected.
+
+---
+
+## Alternative B
+
+Federated Multi-Orchestrator
+
+Advantages:
+
+- domain isolation;
+- independent growth;
+- improved resilience;
+- flexible organizational structure.
+
+Decision:
+
+Selected.
+
+---
+
+# Consequences
+
+Future architecture documents should assume:
+
+- multiple orchestrators;
+- explicit trust boundaries;
+- independent policies;
+- federated governance;
+- coordinated execution.
+
+---
+
+# Related Documents
+
+- H-1620 — Sovereign Command Workspace
+- H-1621 — Executive Credential Authority
+- SEC-001 — Guardian Core
+- SEC-004 — Zero Trust Architecture
+- SEC-005 — Trust Boundaries
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+The federated orchestration model has been approved.
+
+## Current Reality
+
+No production multi-orchestrator runtime currently exists.
+
+---
+
+> **"Federation improves resilience without removing governance."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
