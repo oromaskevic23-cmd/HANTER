@@ -8550,3 +8550,208 @@ Founder • Owner • Chief Systems Architect
 NERO — Chief Engineering Director
 
 © IMPERIAL CORE
+# IMPERIAL CORE Architecture Map
+
+> Official Enterprise Architecture Navigation
+
+Version: 1.0
+
+Status: Living Architecture
+
+---
+
+# Purpose
+
+The Architecture Map is the official navigation document for the IMPERIAL CORE architecture.
+
+It provides a unified view of architectural domains, major systems and their relationships.
+
+This document describes architecture only.
+
+Implementation status is tracked independently.
+
+---
+
+# Enterprise Architecture
+
+```text
+IMPERIAL CORE
+│
+├──────────────────────────────────────────────┐
+│                                              │
+│  HANTER                                      │
+│  Private Executive Command Center            │
+│                                              │
+├──────────────────────────────────────────────┘
+│
+├── Executive Foundation
+│      ├── H-1000 System Architecture
+│      ├── H-1620 Sovereign Command Workspace
+│      └── H-1621 Executive Credential Authority
+│
+├── Security Foundation
+│      ├── Guardian Core
+│      ├── Approval Gateway
+│      ├── Audit Ledger
+│      ├── Zero Trust Architecture
+│      └── Trust Boundaries
+│
+├── Identity Foundation
+│      ├── AI Passport
+│      ├── Robot Passport
+│      └── Identity Lifecycle
+│
+├── Enterprise Skills Foundation
+│      ├── Enterprise Skills
+│      ├── Skill Registry
+│      └── Skill Lifecycle
+│
+├── Robotics Foundation
+│      ├── Robotics Platform
+│      ├── Physical Skills
+│      ├── Fleet Federation
+│      ├── Robotics Factory
+│      ├── Robot Runtime
+│      └── Robot Operating Modes
+│
+├── Governance Foundation
+│      ├── Architecture Book
+│      ├── Architecture Registry
+│      ├── Architecture Decision Records
+│      └── Hunter Protocol
+│
+├── Knowledge Foundation
+│      ├── Obsidian Knowledge Layer
+│      └── Future IMPERIAL Knowledge Core (Strategic Roadmap)
+│
+├── Nano Core Agents
+│
+├── Legion
+│
+├── ORION
+│
+├── Capital Core
+│
+└── CRYPTO IMPERIAL Ecosystem
+```
+
+---
+
+# Architectural Layers
+
+## Layer 1
+
+Architect
+
+Ultimate architectural authority.
+
+---
+
+## Layer 2
+
+Executive Governance
+
+Responsible for strategic coordination.
+
+---
+
+## Layer 3
+
+Security
+
+Responsible for protection, verification and trust.
+
+---
+
+## Layer 4
+
+Identity
+
+Responsible for trusted digital identities.
+
+---
+
+## Layer 5
+
+Professional Capabilities
+
+Enterprise Skills and Physical Skills.
+
+---
+
+## Layer 6
+
+Execution
+
+Nano Core Agents, Robotics and future runtime systems.
+
+---
+
+## Layer 7
+
+Evidence
+
+Audit Ledger, Engineering Journal and Architecture Decision Records.
+
+---
+
+# Engineering Principles
+
+The complete architecture follows:
+
+- Architecture Before Implementation
+- Zero Trust
+- Multi-Orchestrator Architecture
+- Human Final Authority
+- Complete Traceability
+- Independent Verification
+- Continuous Improvement
+
+---
+
+# Current Documentation Status
+
+| Domain | Status |
+|----------|--------|
+| Executive Foundation | ✅ Active |
+| Security Foundation | ✅ Active |
+| Identity Foundation | ✅ Active |
+| Enterprise Skills | ✅ Active |
+| Robotics Foundation | ✅ Active |
+| Governance | ✅ Active |
+| Knowledge Foundation | 🚧 Planned |
+| Runtime Foundation | 🚧 Planned |
+| Operations Foundation | 🚧 Planned |
+| Analytics Foundation | 🚧 Planned |
+
+---
+
+# Architecture vs Reality
+
+## Architecture
+
+This map documents the intended enterprise architecture.
+
+## Current Reality
+
+Only part of the architecture has corresponding software implementations.
+
+Implementation progress is documented separately.
+
+---
+
+> **"A great architecture is understood as a whole, not only through its individual components."**
+
+---
+
+**Author and Owner**
+
+Alexander Romaskevich
+
+Founder • Owner • Chief Systems Architect
+
+**Engineering**
+
+NERO — Chief Engineering Director
+
+© IMPERIAL CORE
