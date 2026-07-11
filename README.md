@@ -916,3 +916,119 @@ Transparency is considered an architectural requirement.
 ---
 
 © IMPERIAL CORE
+---
+
+# Why HANTER Exists
+
+HANTER was not created to become another AI assistant.
+
+It was designed as a long-term executive architecture intended to support strategic engineering, governance and responsible orchestration.
+
+The primary objective is to build a trusted executive platform where architectural integrity always has priority over speed.
+
+---
+
+# Mission
+
+To provide a secure, transparent and governed executive command center for the IMPERIAL Core ecosystem.
+
+Every architectural decision should strengthen the system while preserving long-term maintainability and human authority.
+
+---
+
+# Vision
+
+To demonstrate that enterprise AI systems can be designed with:
+
+- engineering discipline;
+- architectural transparency;
+- security by design;
+- governance by design;
+- long-term responsibility.
+
+The project promotes architecture as the foundation of reliable intelligent systems.
+
+---
+
+# Core Objectives
+
+- Build architecture before implementation.
+- Preserve engineering knowledge.
+- Coordinate professional AI teams.
+- Support responsible decision making.
+- Protect architectural integrity.
+- Encourage transparent engineering.
+- Design systems capable of evolving over decades.
+
+---
+
+# Design Philosophy
+
+HANTER is intentionally designed around principles rather than technologies.
+
+Technologies change.
+
+Programming languages change.
+
+AI models change.
+
+Architecture should remain understandable and maintainable across generations.
+
+---
+
+# Engineering Culture
+
+The project encourages:
+
+- Curiosity
+- Responsibility
+- Documentation
+- Professionalism
+- Transparency
+- Critical Thinking
+- Continuous Learning
+- Respectful Collaboration
+
+---
+
+# Open Architecture
+
+The repository welcomes:
+
+- architectural discussion;
+- constructive engineering feedback;
+- design reviews;
+- long-term research;
+- professional recommendations.
+
+The objective is continuous architectural improvement.
+
+---
+
+# Repository Statement
+
+This repository represents an architectural effort.
+
+It should not be interpreted as evidence that every documented capability already exists as production software.
+
+Architecture describes intended design.
+
+Implementation and verification remain separate engineering stages.
+
+---
+
+# Engineering Motto
+
+> **Architecture defines the future before code builds it.**
+
+---
+
+**Alexander Romaskevich**
+
+Founder • Owner • Chief Systems Architect
+
+**NERO**
+
+Chief Engineering Director
+
+© IMPERIAL CORE
